@@ -1,2 +1,2 @@
 # Verilog
-Contains some Verilog code written (also sometimes work-in-progress code) or tested by me.
+Contains some Verilog code written or tested by me.
