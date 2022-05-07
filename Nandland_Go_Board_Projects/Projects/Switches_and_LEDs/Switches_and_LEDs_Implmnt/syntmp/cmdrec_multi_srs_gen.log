@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\synwork\Switches_and_LEDs_comp.srs  -osyn  D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\synwork\Switches_and_LEDs_mult.srs  -log  D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\synlog\Switches_and_LEDs_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\synwork\Switches_and_LEDs_comp.srs|io:i|time:1651933057|size:1644|exec:0
+file:D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\synwork\Switches_and_LEDs_mult.srs|io:o|time:1651933058|size:1412|exec:0
+file:D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\synlog\Switches_and_LEDs_multi_srs_gen.srr|io:o|time:1651933058|size:717|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1651489885|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1651489888|size:3947520|exec:1

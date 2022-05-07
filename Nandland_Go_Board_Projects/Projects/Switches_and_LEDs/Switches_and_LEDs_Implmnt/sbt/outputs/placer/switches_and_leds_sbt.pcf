@@ -1,0 +1,9 @@
+set_location GND -1 -1 -1 # GND
+set_io i_Switch_1_ibuf 13 4 1 # ICE_IO
+set_io i_Switch_2_ibuf 13 3 1 # ICE_IO
+set_io i_Switch_3_ibuf 13 6 0 # ICE_IO
+set_io i_Switch_4_ibuf 13 4 0 # ICE_IO
+set_io o_LED_1_obuf 13 6 1 # ICE_IO
+set_io o_LED_2_obuf 13 7 0 # ICE_IO
+set_io o_LED_3_obuf 13 7 1 # ICE_IO
+set_io o_LED_4_obuf 13 8 0 # ICE_IO

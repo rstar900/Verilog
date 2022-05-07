@@ -1,0 +1,8 @@
+OUTPUT o_LED_3 	 location (13, 7, 1) 	 59 	 
+OUTPUT o_LED_1 	 location (13, 6, 1) 	 56 	 
+INPUT  i_Switch_4 	 location (13, 4, 0) 	 52 	 
+INPUT  i_Switch_2 	 location (13, 3, 1) 	 51 	 
+OUTPUT o_LED_4 	 location (13, 8, 0) 	 60 	 
+OUTPUT o_LED_2 	 location (13, 7, 0) 	 57 	 
+INPUT  i_Switch_3 	 location (13, 6, 0) 	 54 	 
+INPUT  i_Switch_1 	 location (13, 4, 1) 	 53 	 

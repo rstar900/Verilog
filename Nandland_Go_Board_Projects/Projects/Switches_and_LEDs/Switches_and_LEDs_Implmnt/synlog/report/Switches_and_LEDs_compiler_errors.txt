@@ -1,0 +1,2 @@
+@E: CS219 :"D:\Nandland_Go_Board_Projects\Sources\Switches_and_LEDs.v":17:10:17:10|Expecting one of the keywords module, primitive or macromodule
+

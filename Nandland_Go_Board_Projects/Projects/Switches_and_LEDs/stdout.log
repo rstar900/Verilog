@@ -1,0 +1,78 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    RACHIT-PC
+Date:        Sat May 07 19:47:36 2022
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch Switches_and_LEDs_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\Switches_and_LEDs.srr"
+Running: Switches_and_LEDs_Implmnt in foreground
+
+Running Switches_and_LEDs_syn|Switches_and_LEDs_Implmnt
+
+Running: compile (Compile) on Switches_and_LEDs_syn|Switches_and_LEDs_Implmnt
+# Sat May 07 19:47:36 2022
+
+Running: compile_flow (Compile Process) on Switches_and_LEDs_syn|Switches_and_LEDs_Implmnt
+# Sat May 07 19:47:36 2022
+
+Running: compiler (Compile Input) on Switches_and_LEDs_syn|Switches_and_LEDs_Implmnt
+# Sat May 07 19:47:36 2022
+Copied D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\synwork\Switches_and_LEDs_comp.srs to D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\Switches_and_LEDs.srs
+
+compiler completed
+# Sat May 07 19:47:38 2022
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on Switches_and_LEDs_syn|Switches_and_LEDs_Implmnt
+# Sat May 07 19:47:38 2022
+
+multi_srs_gen completed
+# Sat May 07 19:47:38 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\synwork\Switches_and_LEDs_mult.srs to D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\Switches_and_LEDs.srs
+Complete: Compile Process on Switches_and_LEDs_syn|Switches_and_LEDs_Implmnt
+
+Running: premap (Pre-mapping) on Switches_and_LEDs_syn|Switches_and_LEDs_Implmnt
+# Sat May 07 19:47:38 2022
+
+premap completed
+# Sat May 07 19:47:45 2022
+
+Return Code: 0
+Run Time:00h:00m:07s
+Complete: Compile on Switches_and_LEDs_syn|Switches_and_LEDs_Implmnt
+
+Running: map (Map) on Switches_and_LEDs_syn|Switches_and_LEDs_Implmnt
+# Sat May 07 19:47:45 2022
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on Switches_and_LEDs_syn|Switches_and_LEDs_Implmnt
+# Sat May 07 19:47:45 2022
+Copied D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\synwork\Switches_and_LEDs_m.srm to D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\Switches_and_LEDs.srm
+
+fpga_mapper completed
+# Sat May 07 19:47:47 2022
+
+Return Code: 0
+Run Time:00h:00m:02s
+Complete: Map on Switches_and_LEDs_syn|Switches_and_LEDs_Implmnt
+Complete: Logic Synthesis on Switches_and_LEDs_syn|Switches_and_LEDs_Implmnt
+
+exit status=0
+
+exit status=0
+

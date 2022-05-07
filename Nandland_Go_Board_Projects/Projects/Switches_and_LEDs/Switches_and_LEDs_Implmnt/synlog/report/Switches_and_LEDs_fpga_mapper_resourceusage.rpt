@@ -1,0 +1,17 @@
+---------------------------------------
+Resource Usage Report for switches_and_leds 
+
+Mapping to part: ice40hx1kvq100
+Cell usage:
+SB_LUT4         0 uses
+
+I/O ports: 8
+I/O primitives: 8
+SB_IO          8 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 (0%)
+
+@S |Mapping Summary:
+Total  LUTs: 0 (0%)
+

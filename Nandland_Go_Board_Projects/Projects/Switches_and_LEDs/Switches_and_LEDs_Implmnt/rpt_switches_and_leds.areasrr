@@ -1,0 +1,18 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX1KVQ100 (Lattice)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   switches_and_leds   ########
+=================================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     8                  100 %                
+=================================================
+Total IO PADS in the block switches_and_leds:	8 (80.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

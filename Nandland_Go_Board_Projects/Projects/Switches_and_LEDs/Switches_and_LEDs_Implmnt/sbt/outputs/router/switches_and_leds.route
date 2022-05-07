@@ -1,0 +1,50 @@
+* ******************************************************************************
+
+* iCEcube Router
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:44:35
+
+* File Generated:     May 7 2022 19:48:16
+
+* Purpose:            Detailed routing info for each net
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Net : o_LED_1_c
+T_13_4_wire_io_cluster/io_1/D_IN_0
+T_13_3_span4_vert_t_14
+T_13_6_lc_trk_g1_6
+T_13_6_wire_io_cluster/io_1/D_OUT_0
+
+End 
+
+Net : o_LED_2_c
+T_13_3_wire_io_cluster/io_1/D_IN_0
+T_13_2_span4_vert_t_14
+T_13_6_span4_vert_t_14
+T_13_7_lc_trk_g0_6
+T_13_7_wire_io_cluster/io_0/D_OUT_0
+
+End 
+
+Net : o_LED_3_c
+T_13_6_wire_io_cluster/io_0/D_IN_0
+T_13_5_span4_vert_t_12
+T_13_7_lc_trk_g1_0
+T_13_7_wire_io_cluster/io_1/D_OUT_0
+
+End 
+
+Net : o_LED_4_c
+T_13_4_wire_io_cluster/io_0/D_IN_0
+T_13_3_span4_vert_t_12
+T_13_7_span4_vert_t_12
+T_13_8_lc_trk_g0_4
+T_13_8_wire_io_cluster/io_0/D_OUT_0
+
+End 
+
