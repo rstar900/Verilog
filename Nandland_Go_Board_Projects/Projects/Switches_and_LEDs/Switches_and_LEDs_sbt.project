@@ -4,7 +4,7 @@ Version=Lattice Semiconductor Corporation iCEcube - Release: 2020.12.27943 - Bui
 ProjectName=Switches_and_LEDs
 Vendor=SiliconBlue
 Synthesis=synplify
-ProjectVFiles=../../Sources/Switches_and_LEDs.v
+ProjectVFiles=../../Sources/Switches_and_LEDs.v=work
 ProjectCFiles=
 CurImplementation=Switches_and_LEDs_Implmnt
 Implementations=Switches_and_LEDs_Implmnt

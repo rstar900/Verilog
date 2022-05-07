@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:55:50
 
-* File Generated:     May 7 2022 19:48:09
+* File Generated:     May 7 2022 21:32:15
 
 * Purpose:            
 
@@ -14,20 +14,20 @@
 
 * ******************************************************************************
 
-Executing : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\netlist\oadb-switches_and_leds --outdir D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P01.dev --package VQ100 --deviceMarketName iCE40HX1K --sdc-file D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX1K.lib --effort_level std --out-sdc-file D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\outputs\placer\switches_and_leds_pl.sdc
+Executing : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\netlist\oadb-switches_and_leds --outdir D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P01.dev --package VQ100 --deviceMarketName iCE40HX1K --sdc-file D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX1K.lib --effort_level std --out-sdc-file D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\outputs\placer\switches_and_leds_pl.sdc
 I2004: Option and Settings Summary
 =============================================================
 Device file          - C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P01.dev
 Package              - VQ100
-Design database      - D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\netlist\oadb-switches_and_leds
-SDC file             - D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\Temp/sbt_temp.sdc
-Output directory     - D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\outputs\placer
+Design database      - D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\netlist\oadb-switches_and_leds
+SDC file             - D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\outputs\placer
 Timing library       - C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX1K.lib
 Effort level         - std
 
 I2050: Starting reading inputs for placer
 =============================================================
-I2100: Reading design library: D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\netlist\oadb-switches_and_leds/BFPGA_DESIGN_ep
+I2100: Reading design library: D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\netlist\oadb-switches_and_leds/BFPGA_DESIGN_ep
 I2065: Reading device file : C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P01.dev
 I2051: Reading of inputs for placer completed successfully
 
@@ -70,7 +70,7 @@ I2088: Phase 1, elapsed time : 0.0 (sec)
 
 
 Phase 2
-I2088: Phase 2, elapsed time : 0.0 (sec)
+I2088: Phase 2, elapsed time : 0.1 (sec)
 
 Phase 3
 W2659: No Constrained paths were found. The placer will run in non-timing driven mode.
@@ -96,10 +96,10 @@ Device Utilization Summary after Packing
     PLLs                        :	0/0
 
 
-I2088: Phase 3, elapsed time : 1.1 (sec)
+I2088: Phase 3, elapsed time : 0.4 (sec)
 
 Phase 4
-I2088: Phase 4, elapsed time : 0.2 (sec)
+I2088: Phase 4, elapsed time : 0.1 (sec)
 
 Phase 6
 I2088: Phase 6, elapsed time : 0.0 (sec)
@@ -127,5 +127,5 @@ Device Utilization Summary
 
 I2054: Placement of design completed successfully
 
-I2076: Placer run-time: 1.7 sec.
+I2076: Placer run-time: 0.9 sec.
 

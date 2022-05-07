@@ -11,10 +11,11 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@I::"D:\Nandland_Go_Board_Projects\Sources\Switches_and_LEDs.v" (library work)
+@I::"D:\Verilog\Nandland_Go_Board_Projects\Sources\Switches_and_LEDs.v" (library work)
 Verilog syntax check successful!
+Options changed - recompiling
 Selecting top level module switches_and_leds
-@N: CG364 :"D:\Nandland_Go_Board_Projects\Sources\Switches_and_LEDs.v":1:7:1:23|Synthesizing module switches_and_leds in library work.
+@N: CG364 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Switches_and_LEDs.v":1:7:1:23|Synthesizing module switches_and_leds in library work.
 
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
@@ -22,29 +23,29 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat May 07 19:47:36 2022
+# Sat May 07 21:31:09 2022
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
 @N|Running in 64-bit mode
-@N: NF107 :"D:\Nandland_Go_Board_Projects\Sources\Switches_and_LEDs.v":1:7:1:23|Selected library: work cell: switches_and_leds view verilog as top level
-@N: NF107 :"D:\Nandland_Go_Board_Projects\Sources\Switches_and_LEDs.v":1:7:1:23|Selected library: work cell: switches_and_leds view verilog as top level
+@N: NF107 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Switches_and_LEDs.v":1:7:1:23|Selected library: work cell: switches_and_leds view verilog as top level
+@N: NF107 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Switches_and_LEDs.v":1:7:1:23|Selected library: work cell: switches_and_leds view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat May 07 19:47:37 2022
+# Sat May 07 21:31:10 2022
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat May 07 19:47:37 2022
+# Sat May 07 21:31:10 2022
 
 ###########################################################]

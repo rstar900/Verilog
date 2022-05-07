@@ -5,7 +5,7 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\synlog\report\Switches_and_LEDs_fpga_mapper_resourceusage.rpt</data>
+<data>D:\Verilog\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\synlog\report\Switches_and_LEDs_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <parameter tooltip="Total PADS used" name="PADS">

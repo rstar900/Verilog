@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
-#--  Project file D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\run_options.txt
-#--  Written on Sat May 07 19:47:36 2022
+#--  Project file D:\Verilog\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\run_options.txt
+#--  Written on Sat May 07 21:31:08 2022
 
 
 #project files

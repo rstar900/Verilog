@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:45:10
 
-* File Generated:     May 7 2022 19:48:13
+* File Generated:     May 7 2022 21:32:17
 
 * Purpose:            Router runtime info
 
@@ -14,7 +14,7 @@
 
 * ******************************************************************************
 
-Executing : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P01.dev D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\sbt\netlist\oadb-switches_and_leds C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX1K.lib D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\sbt\outputs\packer\switches_and_leds_pk.sdc --outdir D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\sbt\outputs\router --sdf_file D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\outputs\simulation_netlist\switches_and_leds_sbt.sdf --pin_permutation 
+Executing : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P01.dev D:\Verilog\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\sbt\netlist\oadb-switches_and_leds C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX1K.lib D:\Verilog\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\sbt\outputs\packer\switches_and_leds_pk.sdc --outdir D:\Verilog\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\sbt\outputs\router --sdf_file D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\outputs\simulation_netlist\switches_and_leds_sbt.sdf --pin_permutation 
 I1203: Reading Design switches_and_leds
 I1202: Reading Architecture of device iCE40HX1K
 I1209: Started routing

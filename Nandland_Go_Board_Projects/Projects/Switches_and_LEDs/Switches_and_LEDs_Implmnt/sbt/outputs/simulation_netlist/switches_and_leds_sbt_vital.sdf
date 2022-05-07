@@ -1,7 +1,7 @@
 (DELAYFILE                 // Header Section
    (SDFVERSION "3.0")
    (DESIGN "switches_and_leds")
-   (DATE "Sat May 07 19:48:18 2022")
+   (DATE "Sat May 07 21:32:22 2022")
    (VENDOR "SiliconBlue Technologies Corporation")
    (DIVIDER /)
    (TIMESCALE 1ps)

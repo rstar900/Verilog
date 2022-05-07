@@ -1,21 +1,21 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
-#--  Project file D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\scratchproject.prs
+#--  Project file D:\Verilog\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\scratchproject.prs
 
 #project files
-add_file -verilog "D:/Nandland_Go_Board_Projects/Sources/Switches_and_LEDs.v"
+add_file -verilog "D:/Verilog/Nandland_Go_Board_Projects/Sources/Switches_and_LEDs.v"
 
 
 
 #implementation: "Switches_and_LEDs_Implmnt"
-impl -add D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt -type fpga
+impl -add D:\Verilog\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt -type fpga
 
 #
 #implementation attributes
 
 set_option -vlog_std v2001
 set_option -project_relative_includes 1
-set_option -include_path {D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/}
+set_option -include_path {D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/}
 
 #device options
 set_option -technology SBTiCE40
@@ -64,5 +64,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt/Switches_and_LEDs.edf"
+project -result_file "D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt/Switches_and_LEDs.edf"
 impl -active "Switches_and_LEDs_Implmnt"

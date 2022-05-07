@@ -1,13 +1,14 @@
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
 @N|Running in 64-bit mode
-@N: NF107 :"D:\Nandland_Go_Board_Projects\Sources\Switches_and_LEDs.v":1:7:1:23|Selected library: work cell: switches_and_leds view verilog as top level
-@N: NF107 :"D:\Nandland_Go_Board_Projects\Sources\Switches_and_LEDs.v":1:7:1:23|Selected library: work cell: switches_and_leds view verilog as top level
+File D:\Nandland_Go_Board_Projects\Projects\Switches_and_LEDs\Switches_and_LEDs_Implmnt\synwork\Switches_and_LEDs_comp.srs changed - recompiling
+@N: NF107 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Switches_and_LEDs.v":1:7:1:23|Selected library: work cell: switches_and_leds view verilog as top level
+@N: NF107 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Switches_and_LEDs.v":1:7:1:23|Selected library: work cell: switches_and_leds view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat May 07 19:47:38 2022
+# Sat May 07 21:31:12 2022
 
 ###########################################################]

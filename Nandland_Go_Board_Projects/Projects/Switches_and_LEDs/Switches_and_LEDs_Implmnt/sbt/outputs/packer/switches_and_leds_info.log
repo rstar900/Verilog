@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:31:51
 
-* File Generated:     May 7 2022 19:48:12
+* File Generated:     May 7 2022 21:32:17
 
 * Purpose:            General info of design implementation
 
@@ -14,7 +14,7 @@
 
 * ******************************************************************************
 
-Command Line: C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\packer.exe  C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P01.dev  D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\netlist\oadb-switches_and_leds  --package  VQ100  --outdir  D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\outputs\packer  --translator  C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl  --src_sdc_file  D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\outputs\placer\switches_and_leds_pl.sdc  --dst_sdc_file  D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\outputs\packer\switches_and_leds_pk.sdc  --devicename  iCE40HX1K  
+Command Line: C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\packer.exe  C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P01.dev  D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\netlist\oadb-switches_and_leds  --package  VQ100  --outdir  D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\outputs\packer  --translator  C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl  --src_sdc_file  D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\outputs\placer\switches_and_leds_pl.sdc  --dst_sdc_file  D:/Verilog/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt\sbt\outputs\packer\switches_and_leds_pk.sdc  --devicename  iCE40HX1K  
 
 ***** Device Info *****
 Chip: iCE40HX1K
@@ -111,4 +111,4 @@ Maximum number of input pins per logic tile: 0
 Average number of input pins per logic tile: -1.#J
 
 ***** Run Time Info *****
-Run Time:  0
+Run Time:  1
