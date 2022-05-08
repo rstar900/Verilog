@@ -1,0 +1,14 @@
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File D:\Verilog\Nandland_Go_Board_Projects\Projects\And_Gate_LUT\And_Gate_LUT_Implmnt\synwork\And_Gate_LUT_comp.srs changed - recompiling
+@N: NF107 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\And_Gate_LUT.v":1:7:1:14|Selected library: work cell: and_gate view verilog as top level
+@N: NF107 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\And_Gate_LUT.v":1:7:1:14|Selected library: work cell: and_gate view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun May 08 23:10:25 2022
+
+###########################################################]

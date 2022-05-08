@@ -1,0 +1,6 @@
+ble_pack o_LED_1_obuf_RNO_LC_12_4_0 { o_LED_1_obuf_RNO }
+clb_pack LT_12_4 { o_LED_1_obuf_RNO_LC_12_4_0 }
+set_location LT_12_4 12 4
+set_io o_LED_1 56
+set_io i_Switch_2 51
+set_io i_Switch_1 53

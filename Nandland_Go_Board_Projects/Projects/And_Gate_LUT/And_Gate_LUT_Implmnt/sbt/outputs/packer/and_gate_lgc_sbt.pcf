@@ -1,0 +1,5 @@
+set_location o_LED_1_obuf_RNO 12 4 0 #SB_LUT4
+set_location GND -1 -1 -1 #GND
+set_io o_LED_1 56
+set_io i_Switch_2 51
+set_io i_Switch_1 53

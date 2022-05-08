@@ -17,12 +17,13 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt/sbt/outputs/bitmap/switches_and_leds_bitmap.bin</File>
-			<FileTime>05/07/22 19:49:44</FileTime>
-			<JedecChecksum>0xADA8</JedecChecksum>
+			<File>D:/Verilog/Nandland_Go_Board_Projects/Projects/And_Gate_LUT/And_Gate_LUT_Implmnt/sbt/outputs/bitmap/and_gate_bitmap.bin</File>
+			<FileTime>05/08/22 23:10:34</FileTime>
+			<JedecChecksum>0x9E9B</JedecChecksum>
 			<Operation>SPI Flash Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<SVFProcessor>SVF Processor</SVFProcessor>
 				<AccessMode>SPI Flash Programming</AccessMode>
 			</Option>
 			<FPGALoader>
@@ -46,6 +47,7 @@
 						<SVFVendor>JTAG STANDARD</SVFVendor>
 						<IOState>HighZ</IOState>
 						<IOVectorData>•</IOVectorData>
+						<SVFProcessor>SVF Processor</SVFProcessor>
 						<AccessMode>JTAG</AccessMode>
 					</Option>
 				</Device>
@@ -59,9 +61,9 @@
 					<IDCode>0x10</IDCode>
 					<Package>8-pin SOIC</Package>
 					<Operation>SPI Flash Erase,Program,Verify</Operation>
-					<File>D:/Nandland_Go_Board_Projects/Projects/Switches_and_LEDs/Switches_and_LEDs_Implmnt/sbt/outputs/bitmap/switches_and_leds_bitmap.bin</File>
+					<File>D:/Verilog/Nandland_Go_Board_Projects/Projects/And_Gate_LUT/And_Gate_LUT_Implmnt/sbt/outputs/bitmap/and_gate_bitmap.bin</File>
 					<AddressBase>0x00000000</AddressBase>
-					<EndAddress>0x00018000</EndAddress>
+					<EndAddress>0x00008000</EndAddress>
 					<DeviceSize>1</DeviceSize>
 					<DataSize>32299</DataSize>
 					<NumberOfDevices>1</NumberOfDevices>
@@ -80,6 +82,7 @@
 					</LocalChainList>
 					<Option>
 						<SVFVendor>JTAG STANDARD</SVFVendor>
+						<SVFProcessor>SVF Processor</SVFProcessor>
 					</Option>
 				</Device>
 			</FPGADevice>

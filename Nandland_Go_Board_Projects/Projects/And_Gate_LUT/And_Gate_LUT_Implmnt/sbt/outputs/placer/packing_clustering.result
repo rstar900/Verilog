@@ -1,0 +1,2 @@
+ble_pack o_LED_1_obuf_RNO_LC_0 {o_LED_1_obuf_RNO}
+clb_pack PLB_0 {o_LED_1_obuf_RNO_LC_0}
