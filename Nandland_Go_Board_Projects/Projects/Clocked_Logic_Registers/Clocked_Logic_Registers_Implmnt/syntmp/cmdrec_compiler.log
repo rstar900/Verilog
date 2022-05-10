@@ -1,0 +1,8 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\c_hdl.exe  -osyn  D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\synwork\Clocked_Logic_Registers_comp.srs  -hdllog  D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\synlog\Clocked_Logic_Registers_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver   -I D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\  -I C:\lscc\iCEcube2.2020.12\synpbase\lib   -v2001  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -encrypt  -pro  -dmgen  D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work D:\Verilog\Nandland_Go_Board_Projects\Sources\Clocked_Logic.v 
+rc:0 success:1 runtime:2
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\synwork\Clocked_Logic_Registers_comp.srs|io:o|time:1652206213|size:1684|exec:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\synlog\Clocked_Logic_Registers_compiler.srr|io:o|time:1652206213|size:3049|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1651489892|size:224837|exec:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Sources\Clocked_Logic.v|io:i|time:1652205566|size:615|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\c_hdl.exe|io:i|time:1651489863|size:1338368|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\c_hdl.exe|io:i|time:1651489885|size:1754112|exec:1

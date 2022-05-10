@@ -1,0 +1,8 @@
+set_location r_LED_1_RNO 9 6 0 # SB_LUT4 (LogicCell: r_LED_1_LC_0)
+set_location r_LED_1 9 6 0 # SB_DFF (LogicCell: r_LED_1_LC_0)
+set_location r_Switch_1_THRU_LUT4_0 9 6 1 # SB_LUT4 (LogicCell: r_Switch_1_LC_1)
+set_location r_Switch_1 9 6 1 # SB_DFF (LogicCell: r_Switch_1_LC_1)
+set_location GND -1 -1 -1 # GND
+set_io i_Clk_ibuf_gb_io 0 8 1 # ICE_GB_IO
+set_io i_Switch_1_ibuf 13 4 1 # ICE_IO
+set_io o_LED_1_obuf 13 6 1 # ICE_IO

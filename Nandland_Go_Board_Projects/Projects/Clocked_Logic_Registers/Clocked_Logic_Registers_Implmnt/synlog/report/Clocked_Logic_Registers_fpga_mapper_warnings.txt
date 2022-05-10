@@ -1,0 +1,2 @@
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\clocked_logic.v":9:1:9:6|User-specified initial value defined for instance r_LED_1 is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\clocked_logic.v":9:1:9:6|User-specified initial value defined for instance r_Switch_1 is being ignored. 

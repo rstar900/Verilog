@@ -1,0 +1,63 @@
+* ******************************************************************************
+
+* iCEcube Router
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:44:35
+
+* File Generated:     May 10 2022 23:40:58
+
+* Purpose:            Detailed routing info for each net
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Net : o_LED_1_c
+T_9_6_wire_logic_cluster/lc_0/out
+T_9_6_lc_trk_g1_0
+T_9_6_wire_logic_cluster/lc_0/in_1
+
+T_9_6_wire_logic_cluster/lc_0/out
+T_10_6_sp4_h_l_0
+T_13_6_lc_trk_g0_5
+T_13_6_wire_io_cluster/io_1/D_OUT_0
+
+End 
+
+Net : r_SwitchZ0Z_1
+T_9_6_wire_logic_cluster/lc_1/out
+T_9_6_lc_trk_g2_1
+T_9_6_wire_logic_cluster/lc_0/in_3
+
+End 
+
+Net : i_Clk_c_g
+T_0_8_wire_io_cluster/io_1/gbout
+T_0_0_padin_1
+T_0_0_glb_netwk_1
+T_9_6_wire_logic_cluster/lc_3/clk
+
+T_0_8_wire_io_cluster/io_1/gbout
+T_0_0_padin_1
+T_0_0_glb_netwk_1
+T_9_6_wire_logic_cluster/lc_3/clk
+
+End 
+
+Net : i_Switch_1_c
+T_13_4_wire_io_cluster/io_1/D_IN_0
+T_11_4_sp4_h_l_4
+T_10_4_sp4_v_t_47
+T_9_6_lc_trk_g2_2
+T_9_6_wire_logic_cluster/lc_0/in_0
+
+T_13_4_wire_io_cluster/io_1/D_IN_0
+T_11_4_sp4_h_l_4
+T_10_4_sp4_v_t_47
+T_9_6_lc_trk_g2_2
+T_9_6_wire_logic_cluster/lc_1/in_3
+
+End 
+

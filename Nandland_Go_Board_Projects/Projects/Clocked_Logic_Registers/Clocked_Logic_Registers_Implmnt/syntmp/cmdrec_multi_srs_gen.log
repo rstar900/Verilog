@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\synwork\Clocked_Logic_Registers_comp.srs  -osyn  D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\synwork\Clocked_Logic_Registers_mult.srs  -log  D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\synlog\Clocked_Logic_Registers_multi_srs_gen.srr 
+rc:0 success:1 runtime:1
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\synwork\Clocked_Logic_Registers_comp.srs|io:i|time:1652206213|size:1684|exec:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\synwork\Clocked_Logic_Registers_mult.srs|io:o|time:1652206214|size:1457|exec:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\synlog\Clocked_Logic_Registers_multi_srs_gen.srr|io:o|time:1652206214|size:717|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1651489885|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1651489888|size:3947520|exec:1

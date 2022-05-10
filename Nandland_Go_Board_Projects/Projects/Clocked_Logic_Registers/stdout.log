@@ -1,0 +1,78 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    RACHIT-PC
+Date:        Tue May 10 23:40:12 2022
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch Clocked_Logic_Registers_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\Clocked_Logic_Registers.srr"
+Running: Clocked_Logic_Registers_Implmnt in foreground
+
+Running Clocked_Logic_Registers_syn|Clocked_Logic_Registers_Implmnt
+
+Running: compile (Compile) on Clocked_Logic_Registers_syn|Clocked_Logic_Registers_Implmnt
+# Tue May 10 23:40:12 2022
+
+Running: compile_flow (Compile Process) on Clocked_Logic_Registers_syn|Clocked_Logic_Registers_Implmnt
+# Tue May 10 23:40:12 2022
+
+Running: compiler (Compile Input) on Clocked_Logic_Registers_syn|Clocked_Logic_Registers_Implmnt
+# Tue May 10 23:40:12 2022
+Copied D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\synwork\Clocked_Logic_Registers_comp.srs to D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\Clocked_Logic_Registers.srs
+
+compiler completed
+# Tue May 10 23:40:14 2022
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on Clocked_Logic_Registers_syn|Clocked_Logic_Registers_Implmnt
+# Tue May 10 23:40:14 2022
+
+multi_srs_gen completed
+# Tue May 10 23:40:15 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\synwork\Clocked_Logic_Registers_mult.srs to D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\Clocked_Logic_Registers.srs
+Complete: Compile Process on Clocked_Logic_Registers_syn|Clocked_Logic_Registers_Implmnt
+
+Running: premap (Pre-mapping) on Clocked_Logic_Registers_syn|Clocked_Logic_Registers_Implmnt
+# Tue May 10 23:40:15 2022
+
+premap completed
+# Tue May 10 23:40:16 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+Complete: Compile on Clocked_Logic_Registers_syn|Clocked_Logic_Registers_Implmnt
+
+Running: map (Map) on Clocked_Logic_Registers_syn|Clocked_Logic_Registers_Implmnt
+# Tue May 10 23:40:16 2022
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on Clocked_Logic_Registers_syn|Clocked_Logic_Registers_Implmnt
+# Tue May 10 23:40:16 2022
+Copied D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\synwork\Clocked_Logic_Registers_m.srm to D:\Verilog\Nandland_Go_Board_Projects\Projects\Clocked_Logic_Registers\Clocked_Logic_Registers_Implmnt\Clocked_Logic_Registers.srm
+
+fpga_mapper completed with warnings
+# Tue May 10 23:40:18 2022
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Map on Clocked_Logic_Registers_syn|Clocked_Logic_Registers_Implmnt
+Complete: Logic Synthesis on Clocked_Logic_Registers_syn|Clocked_Logic_Registers_Implmnt
+
+exit status=0
+
+exit status=0
+

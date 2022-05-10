@@ -1,0 +1,8 @@
+set_location r_Switch_1_THRU_LUT4_0 9 6 1 #SB_LUT4
+set_location r_Switch_1 9 6 1 #SB_DFF
+set_location r_LED_1_RNO 9 6 0 #SB_LUT4
+set_location r_LED_1 9 6 0 #SB_DFF
+set_location GND -1 -1 -1 #GND
+set_io o_LED_1 56
+set_io i_Switch_1 53
+set_io i_Clk 15

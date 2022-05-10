@@ -1,0 +1,3 @@
+ble_pack r_LED_1_LC_0 {r_LED_1, r_LED_1_RNO}
+ble_pack r_Switch_1_LC_1 {r_Switch_1, r_Switch_1_THRU_LUT4_0}
+clb_pack PLB_0 {r_LED_1_LC_0, r_Switch_1_LC_1}

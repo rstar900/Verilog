@@ -1,0 +1,34 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX1KVQ100 (Lattice)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  Top level view:   clocked_logic   ########
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     2                  100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block clocked_logic:	2 (25.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block clocked_logic:	1 (12.50 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     3                  100 %                
+=================================================
+Total IO PADS in the block clocked_logic:	3 (37.50 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+
