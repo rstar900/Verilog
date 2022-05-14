@@ -1,0 +1,6 @@
+Selecting top level module clocked_logic
+@N: CG364 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Debounce_Module.v":1:7:1:21|Synthesizing module debounce_module in library work.
+
+@A: CG412 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Debounce_Module.v":14:5:14:26|Treating === and !== as == and != -- possible simulation mismatch
+@N: CG364 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Clocked_Logic_Debounce.v":1:7:1:19|Synthesizing module clocked_logic in library work.
+

@@ -17,9 +17,9 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>D:/Verilog/Nandland_Go_Board_Projects/Projects/Clocked_Logic_Registers/Clocked_Logic_Registers_Implmnt/sbt/outputs/bitmap/clocked_logic_bitmap.bin</File>
-			<FileTime>05/10/22 23:41:01</FileTime>
-			<JedecChecksum>0x9D1E</JedecChecksum>
+			<File>D:/Verilog/Nandland_Go_Board_Projects/Projects/Debounce_Switch/Debounce_Switch_Implmnt/sbt/outputs/bitmap/clocked_logic_bitmap.bin</File>
+			<FileTime>05/14/22 23:05:38</FileTime>
+			<JedecChecksum>0x5A7E</JedecChecksum>
 			<Operation>SPI Flash Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
@@ -61,7 +61,7 @@
 					<IDCode>0x10</IDCode>
 					<Package>8-pin SOIC</Package>
 					<Operation>SPI Flash Erase,Program,Verify</Operation>
-					<File>D:/Verilog/Nandland_Go_Board_Projects/Projects/Clocked_Logic_Registers/Clocked_Logic_Registers_Implmnt/sbt/outputs/bitmap/clocked_logic_bitmap.bin</File>
+					<File>D:/Verilog/Nandland_Go_Board_Projects/Projects/Debounce_Switch/Debounce_Switch_Implmnt/sbt/outputs/bitmap/clocked_logic_bitmap.bin</File>
 					<AddressBase>0x00000000</AddressBase>
 					<EndAddress>0x00008000</EndAddress>
 					<DeviceSize>1</DeviceSize>

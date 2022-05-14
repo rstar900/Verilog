@@ -1,0 +1,27 @@
+---------------------------------------
+Resource Usage Report for clocked_logic 
+
+Mapping to part: ice40hx1kvq100
+Cell usage:
+GND             1 use
+SB_CARRY        16 uses
+SB_DFF          3 uses
+SB_DFFSR        18 uses
+SB_GB           1 use
+VCC             1 use
+SB_LUT4         31 uses
+
+I/O ports: 3
+I/O primitives: 3
+SB_GB_IO       1 use
+SB_IO          2 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   21 (1%)
+
+@S |Mapping Summary:
+Total  LUTs: 31 (2%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 31 = 31 
+

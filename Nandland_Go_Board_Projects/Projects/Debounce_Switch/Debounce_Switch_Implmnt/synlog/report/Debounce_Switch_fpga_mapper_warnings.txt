@@ -1,0 +1,4 @@
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\debounce_module.v":11:1:11:6|User-specified initial value defined for instance du.r_Count[17:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\debounce_module.v":11:1:11:6|User-specified initial value defined for instance du.r_State is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\clocked_logic_debounce.v":12:1:12:6|User-specified initial value defined for instance r_LED_1 is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\clocked_logic_debounce.v":12:1:12:6|User-specified initial value defined for instance r_Switch_1 is being ignored. 

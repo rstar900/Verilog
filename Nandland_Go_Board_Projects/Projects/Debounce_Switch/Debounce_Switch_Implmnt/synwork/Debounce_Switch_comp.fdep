@@ -1,0 +1,20 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Verilog\\Nandland_Go_Board_Projects\\Projects\\Debounce_Switch\\Debounce_Switch_Implmnt\\synwork\\Debounce_Switch_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|D:\\Verilog\\Nandland_Go_Board_Projects\\Projects\\Debounce_Switch\\|-I|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_ver.exe":1651489885
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v":1651489892
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\hypermods.v":1651489899
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\umr_capim.v":1651489899
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_objects.v":1651489899
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1651489899
+#CUR:"D:\\Verilog\\Nandland_Go_Board_Projects\\Sources\\Clocked_Logic_Debounce.v":1652549457
+#CUR:"D:\\Verilog\\Nandland_Go_Board_Projects\\Sources\\Debounce_Module.v":1652549454
+0			"D:\Verilog\Nandland_Go_Board_Projects\Sources\Clocked_Logic_Debounce.v" verilog
+1			"D:\Verilog\Nandland_Go_Board_Projects\Sources\Debounce_Module.v" verilog
+#Dependency Lists(Uses List)
+0 1
+1 -1
+#Dependency Lists(Users Of)
+0 -1
+1 0
+#Design Unit to File Association
+module work clocked_logic 0
+module work debounce_module 1
