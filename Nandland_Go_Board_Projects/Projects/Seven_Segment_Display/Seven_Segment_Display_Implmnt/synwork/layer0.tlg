@@ -1,0 +1,11 @@
+Selecting top level module top_level_7_segment
+@N: CG364 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Debounce_Module.v":1:7:1:21|Synthesizing module debounce_module in library work.
+
+@A: CG412 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Debounce_Module.v":14:5:14:26|Treating === and !== as == and != -- possible simulation mismatch
+@N: CG364 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Binary_to_7_Segment.v":1:7:1:25|Synthesizing module binary_to_7_segment in library work.
+
+@N: CG364 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Top_Level_7_Segment.v":1:7:1:25|Synthesizing module top_level_7_segment in library work.
+
+@W: CS263 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Top_Level_7_Segment.v":32:15:32:21|Port-width mismatch for port i_Binary_Num. The port definition is 4 bits, but the actual port connection bit width is 5. Adjust either the definition or the instantiation of this port.
+@N: CL189 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Top_Level_7_Segment.v":42:1:42:6|Register bit r_Count[4] is always 0.
+@W: CL260 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Top_Level_7_Segment.v":42:1:42:6|Pruning register bit 4 of r_Count[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.

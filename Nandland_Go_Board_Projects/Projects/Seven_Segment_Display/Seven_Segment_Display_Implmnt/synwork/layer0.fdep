@@ -1,0 +1,27 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Verilog\\Nandland_Go_Board_Projects\\Projects\\Seven_Segment_Display\\Seven_Segment_Display_Implmnt\\synwork\\Seven_Segment_Display_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|D:\\Verilog\\Nandland_Go_Board_Projects\\Projects\\Seven_Segment_Display\\|-I|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_ver.exe":1651489885
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v":1651489892
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\hypermods.v":1651489899
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\umr_capim.v":1651489899
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_objects.v":1651489899
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1651489899
+#CUR:"D:\\Verilog\\Nandland_Go_Board_Projects\\Sources\\Binary_to_7_Segment.v":1653153458
+#CUR:"D:\\Verilog\\Nandland_Go_Board_Projects\\Sources\\Debounce_Module.v":1652549454
+#CUR:"D:\\Verilog\\Nandland_Go_Board_Projects\\Sources\\Top_Level_7_Segment.v":1653155009
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"D:\Verilog\Nandland_Go_Board_Projects\Sources\Binary_to_7_Segment.v" verilog
+1			"D:\Verilog\Nandland_Go_Board_Projects\Sources\Debounce_Module.v" verilog
+2			"D:\Verilog\Nandland_Go_Board_Projects\Sources\Top_Level_7_Segment.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1 0
+#Dependency Lists(Users Of)
+0 2
+1 2
+2 -1
+#Design Unit to File Association
+module work binary_to_7_segment 0
+module work debounce_module 1
+module work top_level_7_segment 2

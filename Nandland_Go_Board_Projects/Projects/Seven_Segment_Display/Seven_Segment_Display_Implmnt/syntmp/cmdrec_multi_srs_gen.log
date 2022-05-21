@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\synwork\Seven_Segment_Display_comp.srs  -osyn  D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\synwork\Seven_Segment_Display_mult.srs  -log  D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\synlog\Seven_Segment_Display_multi_srs_gen.srr 
+rc:0 success:1 runtime:1
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\synwork\Seven_Segment_Display_comp.srs|io:i|time:1653155269|size:4771|exec:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\synwork\Seven_Segment_Display_mult.srs|io:o|time:1653155270|size:2922|exec:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\synlog\Seven_Segment_Display_multi_srs_gen.srr|io:o|time:1653155270|size:741|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1651489885|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1651489888|size:3947520|exec:1

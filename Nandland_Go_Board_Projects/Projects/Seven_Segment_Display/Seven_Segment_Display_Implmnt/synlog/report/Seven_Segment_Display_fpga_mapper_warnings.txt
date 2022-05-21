@@ -1,0 +1,7 @@
+@W: FA239 :"d:\verilog\nandland_go_board_projects\sources\binary_to_7_segment.v":18:2:18:5|ROM r_Hex_Value_2[6:0] (in view: work.binary_to_7_segment(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\verilog\nandland_go_board_projects\sources\binary_to_7_segment.v":18:2:18:5|ROM r_Hex_Value_2[6:0] (in view: work.binary_to_7_segment(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\debounce_module.v":11:1:11:6|User-specified initial value defined for instance du.r_Count[17:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\debounce_module.v":11:1:11:6|User-specified initial value defined for instance du.r_State is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\binary_to_7_segment.v":15:1:15:6|User-specified initial value defined for instance encoder.r_Hex_Value[6:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\top_level_7_segment.v":42:1:42:6|User-specified initial value defined for instance r_Count[3:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\top_level_7_segment.v":42:1:42:6|User-specified initial value defined for instance r_Switch_1 is being ignored. 

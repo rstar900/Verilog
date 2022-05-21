@@ -1,0 +1,10 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Debounce_Module.v":1:7:1:21|Synthesizing module debounce_module in library work.
+@N: CG364 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Binary_to_7_Segment.v":1:7:1:25|Synthesizing module binary_to_7_segment in library work.
+@N: CG364 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Top_Level_7_Segment.v":1:7:1:25|Synthesizing module top_level_7_segment in library work.
+@N: CL189 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Top_Level_7_Segment.v":42:1:42:6|Register bit r_Count[4] is always 0.
+@N|Running in 64-bit mode
+@N: NF107 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Top_Level_7_Segment.v":1:7:1:25|Selected library: work cell: top_level_7_segment view verilog as top level
+@N: NF107 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Top_Level_7_Segment.v":1:7:1:25|Selected library: work cell: top_level_7_segment view verilog as top level
+

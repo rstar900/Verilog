@@ -1,0 +1,78 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    RACHIT-PC
+Date:        Sat May 21 23:17:47 2022
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch Seven_Segment_Display_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\Seven_Segment_Display.srr"
+Running: Seven_Segment_Display_Implmnt in foreground
+
+Running Seven_Segment_Display_syn|Seven_Segment_Display_Implmnt
+
+Running: compile (Compile) on Seven_Segment_Display_syn|Seven_Segment_Display_Implmnt
+# Sat May 21 23:17:47 2022
+
+Running: compile_flow (Compile Process) on Seven_Segment_Display_syn|Seven_Segment_Display_Implmnt
+# Sat May 21 23:17:47 2022
+
+Running: compiler (Compile Input) on Seven_Segment_Display_syn|Seven_Segment_Display_Implmnt
+# Sat May 21 23:17:47 2022
+Copied D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\synwork\Seven_Segment_Display_comp.srs to D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\Seven_Segment_Display.srs
+
+compiler completed
+# Sat May 21 23:17:50 2022
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Running: multi_srs_gen (Multi-srs Generator) on Seven_Segment_Display_syn|Seven_Segment_Display_Implmnt
+# Sat May 21 23:17:50 2022
+
+multi_srs_gen completed
+# Sat May 21 23:17:51 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\synwork\Seven_Segment_Display_mult.srs to D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\Seven_Segment_Display.srs
+Complete: Compile Process on Seven_Segment_Display_syn|Seven_Segment_Display_Implmnt
+
+Running: premap (Pre-mapping) on Seven_Segment_Display_syn|Seven_Segment_Display_Implmnt
+# Sat May 21 23:17:51 2022
+
+premap completed
+# Sat May 21 23:17:52 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+Complete: Compile on Seven_Segment_Display_syn|Seven_Segment_Display_Implmnt
+
+Running: map (Map) on Seven_Segment_Display_syn|Seven_Segment_Display_Implmnt
+# Sat May 21 23:17:52 2022
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on Seven_Segment_Display_syn|Seven_Segment_Display_Implmnt
+# Sat May 21 23:17:52 2022
+Copied D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\synwork\Seven_Segment_Display_m.srm to D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\Seven_Segment_Display.srm
+
+fpga_mapper completed with warnings
+# Sat May 21 23:17:54 2022
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Map on Seven_Segment_Display_syn|Seven_Segment_Display_Implmnt
+Complete: Logic Synthesis on Seven_Segment_Display_syn|Seven_Segment_Display_Implmnt
+
+exit status=0
+
+exit status=0
+

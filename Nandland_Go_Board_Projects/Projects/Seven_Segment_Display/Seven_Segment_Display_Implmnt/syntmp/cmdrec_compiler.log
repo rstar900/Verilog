@@ -1,0 +1,10 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\c_hdl.exe  -osyn  D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\synwork\Seven_Segment_Display_comp.srs  -hdllog  D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\synlog\Seven_Segment_Display_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver   -I D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\  -I C:\lscc\iCEcube2.2020.12\synpbase\lib   -v2001  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -encrypt  -pro  -dmgen  D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work D:\Verilog\Nandland_Go_Board_Projects\Sources\Binary_to_7_Segment.v -lib work D:\Verilog\Nandland_Go_Board_Projects\Sources\Debounce_Module.v -lib work D:\Verilog\Nandland_Go_Board_Projects\Sources\Top_Level_7_Segment.v 
+rc:0 success:1 runtime:3
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\synwork\Seven_Segment_Display_comp.srs|io:o|time:1653155269|size:4771|exec:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\Seven_Segment_Display\Seven_Segment_Display_Implmnt\synlog\Seven_Segment_Display_compiler.srr|io:o|time:1653155269|size:4365|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1651489892|size:224837|exec:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Sources\Binary_to_7_Segment.v|io:i|time:1653153458|size:1261|exec:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Sources\Debounce_Module.v|io:i|time:1652549454|size:919|exec:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Sources\Top_Level_7_Segment.v|io:i|time:1653155009|size:1784|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\c_hdl.exe|io:i|time:1651489863|size:1338368|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\c_hdl.exe|io:i|time:1651489885|size:1754112|exec:1
