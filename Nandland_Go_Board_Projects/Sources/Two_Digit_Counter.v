@@ -87,6 +87,7 @@ module two_digit_counter(
 	function is_pressed;
 	input w_Switch, r_Switch;
 	begin
+		 // Check with rising edge of switch by comparing with previous state stored in it's register
 		is_pressed = (w_Switch == 1'b1 && r_Switch == 1'b0);
 	end
 	endfunction
@@ -96,7 +97,7 @@ module two_digit_counter(
 	
 	begin
 	
-		r_Switch_1 <= w_Switch_1;
+		r_Switch_1 <= w_Switch_1; 
 		r_Switch_2 <= w_Switch_2;
 			
 		case(r_State)
@@ -113,25 +114,25 @@ module two_digit_counter(
 		
 			PLAY: begin
 				
-				if (r_Ticks == TOTAL_TICKS)
+				if (r_Ticks == TOTAL_TICKS) // Logic to increment displays and reset Ticks when 1s has elapsed
 				begin
 					r_Ticks <= 25'd0; // Increment the 7 Segment Displays as 1 second has passed and reset ticks
 					
-					if (r_Count_2 == 4'b1001)
+					if (r_Count_2 == 4'b1001) // If Display 1 exceeds a value of 9, wrap around with 0 and also check this for Display 2
 					begin
 						r_Count_2 <= 4'b0000;
 						
-						if (r_Count_1 == 4'b1001)
-							r_Count_1 <= 4'b0000;
+						if (r_Count_1 == 4'b1001) // If Display 1 exceeds a value of 9, wrap around with 0
+							r_Count_1 <= 4'b0000; 
 						else
-							r_Count_1 <= r_Count_1 + 1;
+							r_Count_1 <= r_Count_1 + 1; // If not exceeded 9 then increment Display 1 value
 					end
 					else
-						r_Count_2 <= r_Count_2 + 1;	
+						r_Count_2 <= r_Count_2 + 1;	// If not exceeded 9 then increment Display 2 value
 				end	
 				
 				else 
-					r_Ticks <= r_Ticks + 1;
+					r_Ticks <= r_Ticks + 1; // If 1 second has not passed, then just keep incrementing the tick value
 				
 				if (is_pressed(w_Switch_1, r_Switch_1))
 					r_State <= PAUSE;
@@ -163,7 +164,6 @@ module two_digit_counter(
 	assign o_Segment1_E = ~w_Segment1_E;
 	assign o_Segment1_F = ~w_Segment1_F;
 	assign o_Segment1_G = ~w_Segment1_G;
-
 	
 	assign o_Segment2_A = ~w_Segment2_A;
 	assign o_Segment2_B = ~w_Segment2_B;
