@@ -1,0 +1,14 @@
+[VIC]
+du1.r_Count8_7_cascade_=ltout:in0
+du1.r_Count8_8_0_cascade_=ltout:in1
+du1.r_CountZ0Z_111_cascade_=ltout:in1
+du1.un1_r_Count_10lt11_0_cascade_=ltout:in2
+du1.un1_r_Count_10lt17_cascade_=ltout:in0
+du2.r_Count8_10_cascade_=ltout:in1
+du2.r_Count8_12_cascade_=ltout:in0
+du2.r_Count8_8_0_cascade_=ltout:in1
+du2.un1_r_Count_10lto11_1_cascade_=ltout:in3
+is_pressed_9_cascade_=ltout:in0
+r_Count_1_0_sqmuxa_cascade_=ltout:in1
+r_Count_1_RNO_0Z0Z_3_cascade_=ltout:in0
+r_State_ns_1_0__N_2_cascade_=ltout:in3

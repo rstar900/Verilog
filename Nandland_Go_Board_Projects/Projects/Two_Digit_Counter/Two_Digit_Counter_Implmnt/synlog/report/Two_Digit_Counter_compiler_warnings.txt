@@ -1,0 +1,2 @@
+@W: CL249 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Two_Digit_Counter.v":95:1:95:6|Initial value is not supported on state machine r_State
+

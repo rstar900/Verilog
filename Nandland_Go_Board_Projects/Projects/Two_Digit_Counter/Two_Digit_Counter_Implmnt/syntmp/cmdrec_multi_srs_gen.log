@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  D:\Verilog\Nandland_Go_Board_Projects\Projects\Two_Digit_Counter\Two_Digit_Counter_Implmnt\synwork\Two_Digit_Counter_comp.srs  -osyn  D:\Verilog\Nandland_Go_Board_Projects\Projects\Two_Digit_Counter\Two_Digit_Counter_Implmnt\synwork\Two_Digit_Counter_mult.srs  -log  D:\Verilog\Nandland_Go_Board_Projects\Projects\Two_Digit_Counter\Two_Digit_Counter_Implmnt\synlog\Two_Digit_Counter_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\Two_Digit_Counter\Two_Digit_Counter_Implmnt\synwork\Two_Digit_Counter_comp.srs|io:i|time:1653593385|size:7082|exec:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\Two_Digit_Counter\Two_Digit_Counter_Implmnt\synwork\Two_Digit_Counter_mult.srs|io:o|time:1653593386|size:5263|exec:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\Two_Digit_Counter\Two_Digit_Counter_Implmnt\synlog\Two_Digit_Counter_multi_srs_gen.srr|io:o|time:1653593386|size:887|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1651489885|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1651489888|size:3947520|exec:1

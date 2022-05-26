@@ -1,28 +1,28 @@
 [Project]
 ProjectVersion=2.0
 Version=Lattice Semiconductor Corporation iCEcube - Release: 2020.12.27943 - Build Date: Dec 9 2020 18:31:09
-ProjectName=Seven_Segment_Display
+ProjectName=Two_Digit_Counter
 Vendor=SiliconBlue
 Synthesis=synplify
-ProjectVFiles=../../Sources/Binary_to_7_Segment.v=work,../../Sources/Debounce_Module.v=work,../../Sources/Top_Level_7_Segment.v=work
+ProjectVFiles=../../Sources/Two_Digit_Counter.v,../../Sources/Debounce_Module.v=work,../../Sources/Binary_to_7_Segment.v=work
 ProjectCFiles=../../Constraints/Go_Board_Clock_Constraint.sdc
-CurImplementation=Seven_Segment_Display_Implmnt
-Implementations=Seven_Segment_Display_Implmnt
+CurImplementation=Two_Digit_Counter_Implmnt
+Implementations=Two_Digit_Counter_Implmnt
 StartFromSynthesis=yes
 IPGeneration=false
 
-[Seven_Segment_Display_Implmnt]
+[Two_Digit_Counter_Implmnt]
 DeviceFamily=iCE40
 Device=HX1K
 DevicePackage=VQ100
 DevicePower=
-NetlistFile=Seven_Segment_Display_Implmnt/Seven_Segment_Display.edf
+NetlistFile=Two_Digit_Counter_Implmnt/Two_Digit_Counter.edf
 AdditionalEDIFFile=
 IPEDIFFile=
-DesignLib=Seven_Segment_Display_Implmnt/sbt/netlist/oadb-top_level_7_segment
+DesignLib=Two_Digit_Counter_Implmnt/sbt/netlist/oadb-two_digit_counter
 DesignView=_rt
-DesignCell=top_level_7_segment
-SynthesisSDCFile=Seven_Segment_Display_Implmnt/Seven_Segment_Display.scf
+DesignCell=two_digit_counter
+SynthesisSDCFile=Two_Digit_Counter_Implmnt/Two_Digit_Counter.scf
 UserPinConstraintFile=
 UserSDCFile=
 PhysicalConstraintFile=../../Constraints/Go_Board_Constraints.pcf
@@ -81,8 +81,8 @@ BitmapOscillatorFR=low
 BitmapEnableWarmBoot=yes
 BitmapDisableHeader=no
 BitmapSetSecurity=no
-BitmapSetNoUsedIONoPullup=yes
+BitmapSetNoUsedIONoPullup=no
 FloorPlannerShowFanInNets=yes
 FloorPlannerShowFanOutNets=yes
-HookTo3rdPartyTextEditor=no
+HookTo3rdPartyTextEditor=
 

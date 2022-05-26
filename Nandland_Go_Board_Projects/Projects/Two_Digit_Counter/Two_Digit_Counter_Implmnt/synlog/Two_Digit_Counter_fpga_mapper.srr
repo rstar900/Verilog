@@ -1,0 +1,422 @@
+# Fri May 27 00:59:47 2022
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT204 |Auto Constrain mode is disabled because clocks are defined in the SDC file
+
+            i_Clk
+
+@W: FA239 :"d:\verilog\nandland_go_board_projects\sources\binary_to_7_segment.v":18:2:18:5|ROM r_Hex_Value_2[6:0] (in view: work.binary_to_7_segment_1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\verilog\nandland_go_board_projects\sources\binary_to_7_segment.v":18:2:18:5|ROM r_Hex_Value_2[6:0] (in view: work.binary_to_7_segment_1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"d:\verilog\nandland_go_board_projects\sources\binary_to_7_segment.v":18:2:18:5|Found ROM .delname. (in view: work.binary_to_7_segment_1(verilog)) with 16 words by 7 bits.
+@W: FA239 :"d:\verilog\nandland_go_board_projects\sources\binary_to_7_segment.v":18:2:18:5|ROM r_Hex_Value_2[6:0] (in view: work.binary_to_7_segment_0(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\verilog\nandland_go_board_projects\sources\binary_to_7_segment.v":18:2:18:5|ROM r_Hex_Value_2[6:0] (in view: work.binary_to_7_segment_0(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"d:\verilog\nandland_go_board_projects\sources\binary_to_7_segment.v":18:2:18:5|Found ROM .delname. (in view: work.binary_to_7_segment_0(verilog)) with 16 words by 7 bits.
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\debounce_module.v":11:1:11:6|User-specified initial value defined for instance du1.r_Count[17:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\debounce_module.v":11:1:11:6|User-specified initial value defined for instance du1.r_State is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\debounce_module.v":11:1:11:6|User-specified initial value defined for instance du2.r_Count[17:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\debounce_module.v":11:1:11:6|User-specified initial value defined for instance du2.r_State is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\binary_to_7_segment.v":15:1:15:6|User-specified initial value defined for instance encoder1.r_Hex_Value[6:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\binary_to_7_segment.v":15:1:15:6|User-specified initial value defined for instance encoder2.r_Hex_Value[6:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\two_digit_counter.v":95:1:95:6|User-specified initial value defined for instance r_Ticks[24:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\two_digit_counter.v":95:1:95:6|User-specified initial value defined for instance r_Count_1[3:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\two_digit_counter.v":95:1:95:6|User-specified initial value defined for instance r_Count_2[3:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\two_digit_counter.v":95:1:95:6|User-specified initial value defined for instance r_Switch_2 is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\two_digit_counter.v":95:1:95:6|User-specified initial value defined for instance r_Switch_1 is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Encoding state machine r_State[2:0] (in view: work.two_digit_counter(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    32.69ns		 134 /        89
+@N: FX1016 :"d:\verilog\nandland_go_board_projects\sources\two_digit_counter.v":2:7:2:11|SB_GB_IO inserted on the port i_Clk.
+@N: FX1017 :|SB_GB inserted on the net N_119.
+@N: FX1017 :|SB_GB inserted on the net du2.r_Count7_i.
+@N: FX1017 :|SB_GB inserted on the net du1.r_Count7_i.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 89 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================ Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance
+----------------------------------------------------------------------------------------
+@K:CKID0001       i_Clk_ibuf_gb_io     SB_GB_IO               89         r_Ticks[10]    
+========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 135MB)
+
+Writing Analyst data base D:\Verilog\Nandland_Go_Board_Projects\Projects\Two_Digit_Counter\Two_Digit_Counter_Implmnt\synwork\Two_Digit_Counter_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\Verilog\Nandland_Go_Board_Projects\Projects\Two_Digit_Counter\Two_Digit_Counter_Implmnt\Two_Digit_Counter.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 136MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 136MB)
+
+@N: MT615 |Found clock i_Clk with period 40.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri May 27 00:59:48 2022
+#
+
+
+Top view:               two_digit_counter
+Requested Frequency:    25.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\Verilog\Nandland_Go_Board_Projects\Constraints\Go_Board_Clock_Constraint.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 28.137
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+i_Clk              25.0 MHz      84.3 MHz      40.000        11.863        28.137     declared     default_clkgroup
+===================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+i_Clk     i_Clk   |  40.000      28.137  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: i_Clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                Starting                                           Arrival           
+Instance        Reference     Type         Pin     Net             Time        Slack 
+                Clock                                                                
+-------------------------------------------------------------------------------------
+r_Ticks[6]      i_Clk         SB_DFFSR     Q       r_Ticks[6]      0.540       28.137
+r_Ticks[11]     i_Clk         SB_DFFSR     Q       r_Ticks[11]     0.540       28.186
+r_Ticks[12]     i_Clk         SB_DFFSR     Q       r_Ticks[12]     0.540       28.207
+r_Ticks[13]     i_Clk         SB_DFFSR     Q       r_Ticks[13]     0.540       28.270
+r_Ticks[14]     i_Clk         SB_DFFSR     Q       r_Ticks[14]     0.540       28.278
+r_Ticks[16]     i_Clk         SB_DFFSR     Q       r_Ticks[16]     0.540       28.327
+r_Ticks[18]     i_Clk         SB_DFFSR     Q       r_Ticks[18]     0.540       28.348
+r_Ticks[19]     i_Clk         SB_DFFSR     Q       r_Ticks[19]     0.540       28.411
+r_Ticks[20]     i_Clk         SB_DFFSR     Q       r_Ticks[20]     0.540       28.418
+r_Ticks[21]     i_Clk         SB_DFFSR     Q       r_Ticks[21]     0.540       28.467
+=====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                               Required           
+Instance         Reference     Type         Pin     Net                 Time         Slack 
+                 Clock                                                                     
+-------------------------------------------------------------------------------------------
+r_Ticks[24]      i_Clk         SB_DFFSR     D       r_Ticks_RNO[24]     39.895       28.137
+r_Ticks[23]      i_Clk         SB_DFFSR     D       r_Ticks_RNO[23]     39.895       28.278
+r_Ticks[22]      i_Clk         SB_DFFSR     D       r_Ticks_RNO[22]     39.895       28.418
+r_Ticks[21]      i_Clk         SB_DFFSR     D       r_Ticks_RNO[21]     39.895       28.558
+r_Ticks[20]      i_Clk         SB_DFFSR     D       r_Ticks_RNO[20]     39.895       28.698
+r_Ticks[19]      i_Clk         SB_DFFSR     D       r_Ticks_RNO[19]     39.895       28.838
+r_Ticks[18]      i_Clk         SB_DFFSR     D       r_Ticks_RNO[18]     39.895       28.979
+r_Ticks[17]      i_Clk         SB_DFFSR     D       r_Ticks_RNO[17]     39.895       29.119
+r_Ticks[16]      i_Clk         SB_DFFSR     D       r_Ticks_RNO[16]     39.895       29.259
+r_Count_1[3]     i_Clk         SB_DFF       D       r_Count_1           39.895       29.262
+===========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      40.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         39.895
+
+    - Propagation time:                      11.758
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     28.137
+
+    Number of logic level(s):                34
+    Starting point:                          r_Ticks[6] / Q
+    Ending point:                            r_Ticks[24] / D
+    The start point is clocked by            i_Clk [rising] on pin C
+    The end   point is clocked by            i_Clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+r_Ticks[6]                  SB_DFFSR     Q        Out     0.540     0.540       -         
+r_Ticks[6]                  Net          -        -       1.599     -           3         
+r_Ticks9_0_c_RNO            SB_LUT4      I0       In      -         2.139       -         
+r_Ticks9_0_c_RNO            SB_LUT4      O        Out     0.449     2.588       -         
+r_Ticks9_0_and              Net          -        -       0.905     -           1         
+r_Ticks9_0_c                SB_CARRY     I0       In      -         3.493       -         
+r_Ticks9_0_c                SB_CARRY     CO       Out     0.258     3.750       -         
+r_Ticks9_0                  Net          -        -       0.014     -           1         
+r_Ticks9_1_c                SB_CARRY     CI       In      -         3.764       -         
+r_Ticks9_1_c                SB_CARRY     CO       Out     0.126     3.890       -         
+r_Ticks9_1                  Net          -        -       0.014     -           1         
+r_Ticks9_2_c                SB_CARRY     CI       In      -         3.905       -         
+r_Ticks9_2_c                SB_CARRY     CO       Out     0.126     4.031       -         
+r_Ticks9_2                  Net          -        -       0.014     -           1         
+r_Ticks9_3_c                SB_CARRY     CI       In      -         4.045       -         
+r_Ticks9_3_c                SB_CARRY     CO       Out     0.126     4.171       -         
+r_Ticks9_3                  Net          -        -       0.014     -           1         
+r_Ticks9_4_c                SB_CARRY     CI       In      -         4.185       -         
+r_Ticks9_4_c                SB_CARRY     CO       Out     0.126     4.311       -         
+r_Ticks9_4                  Net          -        -       0.014     -           1         
+r_Ticks9_5_c                SB_CARRY     CI       In      -         4.325       -         
+r_Ticks9_5_c                SB_CARRY     CO       Out     0.126     4.451       -         
+r_Ticks9_5                  Net          -        -       0.014     -           1         
+r_Ticks9_6_c                SB_CARRY     CI       In      -         4.465       -         
+r_Ticks9_6_c                SB_CARRY     CO       Out     0.126     4.591       -         
+r_Ticks9                    Net          -        -       0.386     -           6         
+du1.r_Ticks_1_sqmuxa        SB_LUT4      I3       In      -         4.978       -         
+du1.r_Ticks_1_sqmuxa        SB_LUT4      O        Out     0.316     5.293       -         
+r_Ticks_1_sqmuxa            Net          -        -       0.905     -           2         
+un1_r_Ticks_13_cry_0_c      SB_CARRY     CI       In      -         6.198       -         
+un1_r_Ticks_13_cry_0_c      SB_CARRY     CO       Out     0.126     6.324       -         
+un1_r_Ticks_13_cry_0        Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_1_c      SB_CARRY     CI       In      -         6.338       -         
+un1_r_Ticks_13_cry_1_c      SB_CARRY     CO       Out     0.126     6.465       -         
+un1_r_Ticks_13_cry_1        Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_2_c      SB_CARRY     CI       In      -         6.479       -         
+un1_r_Ticks_13_cry_2_c      SB_CARRY     CO       Out     0.126     6.605       -         
+un1_r_Ticks_13_cry_2        Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_3_c      SB_CARRY     CI       In      -         6.619       -         
+un1_r_Ticks_13_cry_3_c      SB_CARRY     CO       Out     0.126     6.745       -         
+un1_r_Ticks_13_cry_3        Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_4_c      SB_CARRY     CI       In      -         6.759       -         
+un1_r_Ticks_13_cry_4_c      SB_CARRY     CO       Out     0.126     6.885       -         
+un1_r_Ticks_13_cry_4        Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_5_c      SB_CARRY     CI       In      -         6.899       -         
+un1_r_Ticks_13_cry_5_c      SB_CARRY     CO       Out     0.126     7.025       -         
+un1_r_Ticks_13_cry_5        Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_6_c      SB_CARRY     CI       In      -         7.039       -         
+un1_r_Ticks_13_cry_6_c      SB_CARRY     CO       Out     0.126     7.165       -         
+un1_r_Ticks_13_cry_6        Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_7_c      SB_CARRY     CI       In      -         7.180       -         
+un1_r_Ticks_13_cry_7_c      SB_CARRY     CO       Out     0.126     7.306       -         
+un1_r_Ticks_13_cry_7        Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_8_c      SB_CARRY     CI       In      -         7.320       -         
+un1_r_Ticks_13_cry_8_c      SB_CARRY     CO       Out     0.126     7.446       -         
+un1_r_Ticks_13_cry_8        Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_9_c      SB_CARRY     CI       In      -         7.460       -         
+un1_r_Ticks_13_cry_9_c      SB_CARRY     CO       Out     0.126     7.586       -         
+un1_r_Ticks_13_cry_9        Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_10_c     SB_CARRY     CI       In      -         7.600       -         
+un1_r_Ticks_13_cry_10_c     SB_CARRY     CO       Out     0.126     7.726       -         
+un1_r_Ticks_13_cry_10       Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_11_c     SB_CARRY     CI       In      -         7.740       -         
+un1_r_Ticks_13_cry_11_c     SB_CARRY     CO       Out     0.126     7.867       -         
+un1_r_Ticks_13_cry_11       Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_12_c     SB_CARRY     CI       In      -         7.880       -         
+un1_r_Ticks_13_cry_12_c     SB_CARRY     CO       Out     0.126     8.007       -         
+un1_r_Ticks_13_cry_12       Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_13_c     SB_CARRY     CI       In      -         8.021       -         
+un1_r_Ticks_13_cry_13_c     SB_CARRY     CO       Out     0.126     8.147       -         
+un1_r_Ticks_13_cry_13       Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_14_c     SB_CARRY     CI       In      -         8.161       -         
+un1_r_Ticks_13_cry_14_c     SB_CARRY     CO       Out     0.126     8.287       -         
+un1_r_Ticks_13_cry_14       Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_15_c     SB_CARRY     CI       In      -         8.301       -         
+un1_r_Ticks_13_cry_15_c     SB_CARRY     CO       Out     0.126     8.427       -         
+un1_r_Ticks_13_cry_15       Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_16_c     SB_CARRY     CI       In      -         8.441       -         
+un1_r_Ticks_13_cry_16_c     SB_CARRY     CO       Out     0.126     8.568       -         
+un1_r_Ticks_13_cry_16       Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_17_c     SB_CARRY     CI       In      -         8.582       -         
+un1_r_Ticks_13_cry_17_c     SB_CARRY     CO       Out     0.126     8.708       -         
+un1_r_Ticks_13_cry_17       Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_18_c     SB_CARRY     CI       In      -         8.722       -         
+un1_r_Ticks_13_cry_18_c     SB_CARRY     CO       Out     0.126     8.848       -         
+un1_r_Ticks_13_cry_18       Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_19_c     SB_CARRY     CI       In      -         8.862       -         
+un1_r_Ticks_13_cry_19_c     SB_CARRY     CO       Out     0.126     8.988       -         
+un1_r_Ticks_13_cry_19       Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_20_c     SB_CARRY     CI       In      -         9.002       -         
+un1_r_Ticks_13_cry_20_c     SB_CARRY     CO       Out     0.126     9.128       -         
+un1_r_Ticks_13_cry_20       Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_21_c     SB_CARRY     CI       In      -         9.142       -         
+un1_r_Ticks_13_cry_21_c     SB_CARRY     CO       Out     0.126     9.268       -         
+un1_r_Ticks_13_cry_21       Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_22_c     SB_CARRY     CI       In      -         9.283       -         
+un1_r_Ticks_13_cry_22_c     SB_CARRY     CO       Out     0.126     9.409       -         
+un1_r_Ticks_13_cry_22       Net          -        -       0.014     -           2         
+un1_r_Ticks_13_cry_23_c     SB_CARRY     CI       In      -         9.423       -         
+un1_r_Ticks_13_cry_23_c     SB_CARRY     CO       Out     0.126     9.549       -         
+un1_r_Ticks_13_cry_23       Net          -        -       0.386     -           1         
+r_Ticks_RNO[24]             SB_LUT4      I3       In      -         9.935       -         
+r_Ticks_RNO[24]             SB_LUT4      O        Out     0.316     10.251      -         
+r_Ticks_RNO[24]             Net          -        -       1.507     -           1         
+r_Ticks[24]                 SB_DFFSR     D        In      -         11.758      -         
+==========================================================================================
+Total path delay (propagation time + setup) of 11.863 is 5.769(48.6%) logic and 6.094(51.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 136MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 136MB)
+
+---------------------------------------
+Resource Usage Report for two_digit_counter 
+
+Mapping to part: ice40hx1kvq100
+Cell usage:
+GND             4 uses
+SB_CARRY        69 uses
+SB_DFF          28 uses
+SB_DFFSR        61 uses
+SB_GB           3 uses
+VCC             4 uses
+SB_LUT4         130 uses
+
+I/O ports: 17
+I/O primitives: 17
+SB_GB_IO       1 use
+SB_IO          16 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   89 (6%)
+Total load per clock:
+   i_Clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 130 (10%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 130 = 130 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 27MB peak: 136MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri May 27 00:59:48 2022
+
+###########################################################]

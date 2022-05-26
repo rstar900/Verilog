@@ -1,0 +1,133 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX1KVQ100 (Lattice)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   two_digit_counter   ########
+=================================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     89                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block two_digit_counter:	89 (27.99 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       130                100 %                
+CARRYS     69                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block two_digit_counter:	199 (62.58 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     20                 100 %                
+=================================================
+Total IO PADS in the block two_digit_counter:	20 (6.29 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   binary_to_7_segment   ########
+Instance path:   two_digit_counter.binary_to_7_segment                   
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     7                  7.87 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block two_digit_counter.binary_to_7_segment:	7 (2.20 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     7                  5.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block two_digit_counter.binary_to_7_segment:	7 (2.20 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   binary_to_7_segment_0   ########
+Instance path:   two_digit_counter.binary_to_7_segment_0                   
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     7                  7.87 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block two_digit_counter.binary_to_7_segment_0:	7 (2.20 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     7                  5.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block two_digit_counter.binary_to_7_segment_0:	7 (2.20 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   debounce_module   ########
+Instance path:   two_digit_counter.debounce_module                   
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     19                 21.3 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block two_digit_counter.debounce_module:	19 (5.97 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       36                 27.7 %               
+CARRYS     16                 23.2 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block two_digit_counter.debounce_module:	52 (16.35 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  5 %                  
+=================================================
+Total IO PADS in the block two_digit_counter.debounce_module:	1 (0.31 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   debounce_module_0   ########
+Instance path:   two_digit_counter.debounce_module_0                   
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     19                 21.3 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block two_digit_counter.debounce_module_0:	19 (5.97 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       31                 23.8 %               
+CARRYS     16                 23.2 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block two_digit_counter.debounce_module_0:	47 (14.78 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  5 %                  
+=================================================
+Total IO PADS in the block two_digit_counter.debounce_module_0:	1 (0.31 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

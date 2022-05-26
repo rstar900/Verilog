@@ -10,7 +10,7 @@ module top_level_7_segment( // 25 Mhz clock
 	output o_Segment2_G);
 	
 	reg r_Switch_1 = 1'b0; // Register for holding previous state of switch
-	reg [4 : 0] r_Count = 4'b0; // For Counting the binary value
+	reg [3 : 0] r_Count = 4'b0; // For Counting the binary value
 	
 	wire w_Switch_1; // Wire for carrying filtered switch output from debounce_module
 	

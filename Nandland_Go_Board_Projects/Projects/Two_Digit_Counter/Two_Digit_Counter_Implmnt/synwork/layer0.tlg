@@ -1,0 +1,15 @@
+Selecting top level module two_digit_counter
+@N: CG364 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Debounce_Module.v":1:7:1:21|Synthesizing module debounce_module in library work.
+
+@A: CG412 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Debounce_Module.v":14:5:14:26|Treating === and !== as == and != -- possible simulation mismatch
+@N: CG364 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Binary_to_7_Segment.v":1:7:1:25|Synthesizing module binary_to_7_segment in library work.
+
+@N: CG364 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Two_Digit_Counter.v":1:7:1:23|Synthesizing module two_digit_counter in library work.
+
+@N: CL201 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Two_Digit_Counter.v":95:1:95:6|Trying to extract state machine for register r_State.
+Extracted state machine for register r_State
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@W: CL249 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Two_Digit_Counter.v":95:1:95:6|Initial value is not supported on state machine r_State

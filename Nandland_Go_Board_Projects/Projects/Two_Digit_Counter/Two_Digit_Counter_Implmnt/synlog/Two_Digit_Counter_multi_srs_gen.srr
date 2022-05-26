@@ -1,0 +1,14 @@
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File D:\Verilog\Nandland_Go_Board_Projects\Projects\Two_Digit_Counter\Two_Digit_Counter_Implmnt\synwork\Two_Digit_Counter_comp.srs changed - recompiling
+@N: NF107 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Two_Digit_Counter.v":1:7:1:23|Selected library: work cell: two_digit_counter view verilog as top level
+@N: NF107 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Two_Digit_Counter.v":1:7:1:23|Selected library: work cell: two_digit_counter view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 27 00:59:46 2022
+
+###########################################################]

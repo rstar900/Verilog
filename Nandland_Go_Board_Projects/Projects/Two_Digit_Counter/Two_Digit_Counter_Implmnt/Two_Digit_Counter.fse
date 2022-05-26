@@ -1,0 +1,10 @@
+
+fsm_encoding {5951951} sequential
+
+fsm_state_encoding {5951951} 00 {00}
+
+fsm_state_encoding {5951951} 01 {01}
+
+fsm_state_encoding {5951951} 10 {10}
+
+fsm_registers {5951951} {r_State[1]}  {r_State[0]} 
