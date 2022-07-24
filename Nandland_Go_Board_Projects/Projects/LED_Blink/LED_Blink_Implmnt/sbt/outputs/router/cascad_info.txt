@@ -1,0 +1,14 @@
+[VIC]
+led_blink_inst.o_LED_13_14_cascade_=ltout:in2
+led_blink_inst.o_LED_13_16_cascade_=ltout:in1
+led_blink_inst.o_LED_13_21_cascade_=ltout:in3
+led_blink_inst.o_LED_23_12_cascade_=ltout:in0
+led_blink_inst.o_LED_23_16_cascade_=ltout:in1
+led_blink_inst.o_LED_23_21_cascade_=ltout:in3
+led_blink_inst.o_LED_33_12_cascade_=ltout:in0
+led_blink_inst.o_LED_33_16_cascade_=ltout:in1
+led_blink_inst.o_LED_33_21_cascade_=ltout:in2
+led_blink_inst.o_LED_43_12_cascade_=ltout:in0
+led_blink_inst.o_LED_43_16_cascade_=ltout:in0
+led_blink_inst.o_LED_43_17_cascade_=ltout:in1
+led_blink_inst.r_Count_1_RNO_0Z0Z_23_cascade_=ltout:in0

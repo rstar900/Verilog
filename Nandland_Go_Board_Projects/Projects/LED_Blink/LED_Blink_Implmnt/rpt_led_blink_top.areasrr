@@ -1,0 +1,56 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX1KVQ100 (Lattice)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  Top level view:   led_blink_top   ########
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     100                100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block led_blink_top:	100 (27.40 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       168                100 %                
+CARRYS     88                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block led_blink_top:	256 (70.14 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     5                  100 %                
+=================================================
+Total IO PADS in the block led_blink_top:	5 (1.37 % Utilization)
+
+----------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   led_blink_1250000s_2500000s_6250000s_12500000s   ########
+Instance path:   led_blink_top.led_blink_1250000s_2500000s_6250000s_12500000s                       
+====================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     100                100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block led_blink_top.led_blink_1250000s_2500000s_6250000s_12500000s:	100 (27.40 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       168                100 %                
+CARRYS     88                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block led_blink_top.led_blink_1250000s_2500000s_6250000s_12500000s:	256 (70.14 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

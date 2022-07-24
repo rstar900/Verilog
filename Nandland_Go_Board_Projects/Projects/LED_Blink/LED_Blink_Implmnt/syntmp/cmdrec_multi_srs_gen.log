@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  D:\Verilog\Nandland_Go_Board_Projects\Projects\LED_Blink\LED_Blink_Implmnt\synwork\LED_Blink_comp.srs  -osyn  D:\Verilog\Nandland_Go_Board_Projects\Projects\LED_Blink\LED_Blink_Implmnt\synwork\LED_Blink_mult.srs  -log  D:\Verilog\Nandland_Go_Board_Projects\Projects\LED_Blink\LED_Blink_Implmnt\synlog\LED_Blink_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\LED_Blink\LED_Blink_Implmnt\synwork\LED_Blink_comp.srs|io:i|time:1658675965|size:6116|exec:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\LED_Blink\LED_Blink_Implmnt\synwork\LED_Blink_mult.srs|io:o|time:1658675966|size:2009|exec:0
+file:D:\Verilog\Nandland_Go_Board_Projects\Projects\LED_Blink\LED_Blink_Implmnt\synlog\LED_Blink_multi_srs_gen.srr|io:o|time:1658675966|size:717|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1651489885|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1651489888|size:3947520|exec:1

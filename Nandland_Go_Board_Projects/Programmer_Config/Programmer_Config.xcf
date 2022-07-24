@@ -17,9 +17,9 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>D:/Verilog/Nandland_Go_Board_Projects/Projects/Two_Digit_Counter/Two_Digit_Counter_Implmnt/sbt/outputs/bitmap/two_digit_counter_bitmap.bin</File>
-			<FileTime>05/27/22 01:00:21</FileTime>
-			<JedecChecksum>0x6371</JedecChecksum>
+			<File>D:/Verilog/Nandland_Go_Board_Projects/Projects/LED_Blink/LED_Blink_Implmnt/sbt/outputs/bitmap/led_blink_top_bitmap.bin</File>
+			<FileTime>07/24/22 20:50:13</FileTime>
+			<JedecChecksum>0xEF5B</JedecChecksum>
 			<Operation>SPI Flash Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
@@ -61,7 +61,7 @@
 					<IDCode>0x10</IDCode>
 					<Package>8-pin SOIC</Package>
 					<Operation>SPI Flash Erase,Program,Verify</Operation>
-					<File>D:/Verilog/Nandland_Go_Board_Projects/Projects/Two_Digit_Counter/Two_Digit_Counter_Implmnt/sbt/outputs/bitmap/two_digit_counter_bitmap.bin</File>
+					<File>D:/Verilog/Nandland_Go_Board_Projects/Projects/LED_Blink/LED_Blink_Implmnt/sbt/outputs/bitmap/led_blink_top_bitmap.bin</File>
 					<AddressBase>0x00000000</AddressBase>
 					<EndAddress>0x00008000</EndAddress>
 					<DeviceSize>1</DeviceSize>

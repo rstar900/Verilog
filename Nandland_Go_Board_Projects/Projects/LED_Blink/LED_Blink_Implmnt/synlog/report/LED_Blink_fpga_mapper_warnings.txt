@@ -1,0 +1,8 @@
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\led_blink.v":55:4:55:9|User-specified initial value defined for instance led_blink_inst.r_Count_4[23:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\led_blink.v":44:4:44:9|User-specified initial value defined for instance led_blink_inst.r_Count_3[23:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\led_blink.v":33:4:33:9|User-specified initial value defined for instance led_blink_inst.r_Count_2[23:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\led_blink.v":22:2:22:7|User-specified initial value defined for instance led_blink_inst.r_Count_1[23:0] is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\led_blink.v":55:4:55:9|User-specified initial value defined for instance led_blink_inst.o_LED_4 is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\led_blink.v":44:4:44:9|User-specified initial value defined for instance led_blink_inst.o_LED_3 is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\led_blink.v":33:4:33:9|User-specified initial value defined for instance led_blink_inst.o_LED_2 is being ignored. 
+@W: FX1039 :"d:\verilog\nandland_go_board_projects\sources\led_blink.v":22:2:22:7|User-specified initial value defined for instance led_blink_inst.o_LED_1 is being ignored. 

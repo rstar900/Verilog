@@ -1,0 +1,11 @@
+Selecting top level module led_blink_top
+@N: CG364 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Led_Blink.v":1:7:1:15|Synthesizing module led_blink in library work.
+
+	g_COUNT_10HZ=32'b00000000000100110001001011010000
+	g_COUNT_5HZ=32'b00000000001001100010010110100000
+	g_COUNT_2HZ=32'b00000000010111110101111000010000
+	g_COUNT_1HZ=32'b00000000101111101011110000100000
+   Generated name = led_blink_1250000s_2500000s_6250000s_12500000s
+
+@N: CG364 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\Led_Blink_Top.v":1:7:1:19|Synthesizing module led_blink_top in library work.
+

@@ -1,0 +1,22 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Verilog\\Nandland_Go_Board_Projects\\Projects\\LED_Blink\\LED_Blink_Implmnt\\synwork\\LED_Blink_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|D:\\Verilog\\Nandland_Go_Board_Projects\\Projects\\LED_Blink\\|-I|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_ver.exe":1651489885
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v":1651489892
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\hypermods.v":1651489899
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\umr_capim.v":1651489899
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_objects.v":1651489899
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1651489899
+#CUR:"D:\\Verilog\\Nandland_Go_Board_Projects\\Sources\\Led_Blink_Top.v":1658674249
+#CUR:"D:\\Verilog\\Nandland_Go_Board_Projects\\Sources\\Led_Blink.v":1658673872
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"D:\Verilog\Nandland_Go_Board_Projects\Sources\Led_Blink_Top.v" verilog
+1			"D:\Verilog\Nandland_Go_Board_Projects\Sources\Led_Blink.v" verilog
+#Dependency Lists(Uses List)
+0 1
+1 -1
+#Dependency Lists(Users Of)
+0 -1
+1 0
+#Design Unit to File Association
+module work led_blink 1
+module work led_blink_top 0

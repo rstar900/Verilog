@@ -1,0 +1,5 @@
+OUTPUT o_LED_3 	 location (13, 7, 1) 	 59 	 
+OUTPUT o_LED_1 	 location (13, 6, 1) 	 56 	 
+INPUT  i_Clk 	 location (0, 8, 1) 	 15 	 
+OUTPUT o_LED_4 	 location (13, 8, 0) 	 60 	 
+OUTPUT o_LED_2 	 location (13, 7, 0) 	 57 	 
