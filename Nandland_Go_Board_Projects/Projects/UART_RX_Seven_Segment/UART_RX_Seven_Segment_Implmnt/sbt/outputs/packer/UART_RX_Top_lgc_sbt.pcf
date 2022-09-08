@@ -1,0 +1,128 @@
+set_location IN_MUX_bfv_5_15_0_ 5 15 0 #ICE_CARRY_IN_MUX
+set_location uart_rx.r_State[1] 4 14 4 #SB_DFF
+set_location uart_rx.r_RX_Byte_RNO_0[2] 2 15 7 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count_RNIV0KP[6] 4 15 3 #SB_LUT4
+set_location seg2.r_Hex_Value_2_6_0_.N_57_i 2 16 0 #SB_LUT4
+set_location uart_rx.r_RX_Byte[6] 1 15 1 #SB_DFF
+set_location uart_rx.r_Data_Clock_Count_RNO[7] 5 15 7 #SB_LUT4
+set_location seg2.r_Hex_Value[1] 1 15 5 #SB_DFF
+set_location uart_rx.r_State_RNIRG1L8[1] 5 14 2 #SB_LUT4
+set_location uart_rx.r_State_RNIAQTB1[0] 4 14 7 #SB_LUT4
+set_location seg1.r_Hex_Value_2_6_0_.m14_i 4 16 1 #SB_LUT4
+set_location uart_rx.r_RX_Byte_RNO[1] 1 16 6 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count[5] 5 15 5 #SB_DFFSR
+set_location uart_rx.r_Bit_Index_RNI97NE1[1] 4 16 5 #SB_LUT4
+set_location uart_rx.r_State_RNI0LVB3_1[0] 2 15 5 #SB_LUT4
+set_location uart_rx.r_RX_Byte[2] 2 15 6 #SB_DFF
+set_location seg2.r_Hex_Value[6] 1 16 2 #SB_DFF
+set_location uart_rx.un1_r_Data_Clock_Count_cry_0_c 5 15 0 #SB_CARRY
+set_location uart_rx.r_State_RNO_0[0] 2 14 1 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count_RNO[3] 5 15 3 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count_RNIKSU42[7] 5 14 0 #SB_LUT4
+set_location seg2.r_Hex_Value_2_6_0_.N_27_i 1 16 2 #SB_LUT4
+set_location seg1.r_Hex_Value[3] 4 16 0 #SB_DFF
+set_location uart_rx.r_State_RNI4P6A5[2] 4 15 5 #SB_LUT4
+set_location uart_rx.r_RX_Byte_RNO[6] 1 15 1 #SB_LUT4
+set_location uart_rx.r_RX_Byte_RNO_0[5] 1 16 3 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count[2] 5 15 2 #SB_DFFSR
+set_location uart_rx.r_State_RNO_1[0] 2 14 6 #SB_LUT4
+set_location uart_rx.r_State_RNO[1] 4 14 4 #SB_LUT4
+set_location uart_rx.r_State_RNI0LVB3_0[0] 4 16 6 #SB_LUT4
+set_location uart_rx.r_RX_Byte[7] 2 16 2 #SB_DFF
+set_location uart_rx.r_Bit_Index[2] 4 15 1 #SB_DFF
+set_location seg1.r_Hex_Value_2_6_0_.N_28_i 1 13 2 #SB_LUT4
+set_location uart_rx.un1_r_Data_Clock_Count_cry_2_c 5 15 2 #SB_CARRY
+set_location uart_rx.r_State_RNIT79T[2] 4 14 0 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count_RNO[4] 5 15 4 #SB_LUT4
+set_location seg2.r_Hex_Value[2] 2 16 6 #SB_DFF
+set_location seg1.r_Hex_Value[6] 1 13 7 #SB_DFF
+set_location uart_rx.r_Data_Clock_Count_RNID8DQ4[5] 5 14 1 #SB_LUT4
+set_location uart_rx.r_Bit_Index_RNO[2] 4 15 1 #SB_LUT4
+set_location uart_rx.r_Bit_Index_RNI5P4V_0[1] 2 16 1 #SB_LUT4
+set_location seg2.r_Hex_Value_2_6_0_.N_52_i 2 16 4 #SB_LUT4
+set_location uart_rx.r_State[2] 4 14 1 #SB_DFF
+set_location uart_rx.r_RX_Byte_RNO[2] 2 15 6 #SB_LUT4
+set_location uart_rx.r_RX_Byte_RNO_0[1] 1 16 5 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count[6] 5 15 6 #SB_DFFSR
+set_location uart_rx.r_RX_Byte[3] 2 15 3 #SB_DFF
+set_location uart_rx.un1_r_Data_Clock_Count_cry_5_c 5 15 5 #SB_CARRY
+set_location uart_rx.r_Data_Clock_Count_RNO[0] 5 15 0 #SB_LUT4
+set_location seg1.r_Hex_Value_2_6_0_.N_27_i 1 13 7 #SB_LUT4
+set_location seg1.r_Hex_Value[2] 4 16 1 #SB_DFF
+set_location uart_rx.r_RX_Byte_RNO[7] 2 16 2 #SB_LUT4
+set_location uart_rx.r_RX_Byte_RNO_0[4] 2 15 0 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count[3] 5 15 3 #SB_DFFSR
+set_location uart_rx.r_State_RNO[2] 4 14 1 #SB_LUT4
+set_location uart_rx.r_RX_Byte[4] 2 15 1 #SB_DFF
+set_location uart_rx.un1_r_Data_Clock_Count_cry_1_c 5 15 1 #SB_CARRY
+set_location uart_rx.r_Data_Clock_Count_RNO[5] 5 15 5 #SB_LUT4
+set_location seg2.r_Hex_Value[3] 2 16 0 #SB_DFF
+set_location seg2.r_Hex_Value_2_6_0_.m10_i 1 15 5 #SB_LUT4
+set_location seg1.r_Hex_Value[5] 1 13 2 #SB_DFF
+set_location uart_rx.r_Bit_Index_RNO[1] 4 16 2 #SB_LUT4
+set_location uart_rx.r_RX_Byte_RNO[3] 2 15 3 #SB_LUT4
+set_location uart_rx.r_RX_Byte_RNO_0[0] 1 15 2 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count[7] 5 15 7 #SB_DFFSR
+set_location uart_rx.r_RX_Byte[0] 1 15 3 #SB_DFF
+set_location uart_rx.r_Data_Clock_Count_RNIHMRC2[5] 5 14 6 #SB_LUT4
+set_location uart_rx.r_Bit_Index[1] 4 16 2 #SB_DFF
+set_location uart_rx.r_Data_Clock_Count_RNO[1] 5 15 1 #SB_LUT4
+set_location uart_rx.r_Bit_Index_RNI5P4V_2[1] 4 15 0 #SB_LUT4
+set_location seg1.r_Hex_Value[1] 1 14 6 #SB_DFF
+set_location GND -1 -1 -1 #GND
+set_location seg1.r_Hex_Value_2_6_0_.N_6_i 1 14 3 #SB_LUT4
+set_location uart_rx.r_RX_Byte[5] 1 16 4 #SB_DFF
+set_location uart_rx.r_Data_Clock_Count_RNIMQ102[3] 4 15 4 #SB_LUT4
+set_location uart_rx.r_State_RNO_2[0] 4 14 6 #SB_LUT4
+set_location seg2.r_Hex_Value[4] 2 16 4 #SB_DFF
+set_location seg1.r_Hex_Value[4] 4 16 3 #SB_DFF
+set_location seg1.r_Hex_Value_2_6_0_.N_31_i 4 16 0 #SB_LUT4
+set_location uart_rx.r_Bit_Index_RNO[0] 4 16 7 #SB_LUT4
+set_location uart_rx.r_State[0] 2 14 2 #SB_DFF
+set_location uart_rx.r_RX_Byte_RNO[4] 2 15 1 #SB_LUT4
+set_location uart_rx.r_RX_Byte_RNO_0[3] 2 15 2 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count[0] 5 15 0 #SB_DFFSR
+set_location uart_rx.r_RX_Byte[1] 1 16 6 #SB_DFF
+set_location uart_rx.r_Bit_Index[0] 4 16 7 #SB_DFF
+set_location seg2.r_Hex_Value_2_6_0_.m14_i 2 16 6 #SB_LUT4
+set_location seg2.r_Hex_Value_2_6_0_.N_6_i 2 16 7 #SB_LUT4
+set_location seg1.r_Hex_Value_2_6_0_.m10_i 1 14 6 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count_RNO[6] 5 15 6 #SB_LUT4
+set_location uart_rx.r_Bit_Index_RNI5P4V_1[1] 4 15 2 #SB_LUT4
+set_location seg2.r_Hex_Value_2_6_0_.N_54_i 2 16 5 #SB_LUT4
+set_location seg2.r_Hex_Value[0] 2 16 7 #SB_DFF
+set_location seg1.r_Hex_Value[0] 1 14 3 #SB_DFF
+set_location uart_rx.r_RX_Byte_RNO_0[6] 1 15 0 #SB_LUT4
+set_location uart_rx.un1_r_Data_Clock_Count_cry_4_c 5 15 4 #SB_CARRY
+set_location uart_rx.r_RX_Byte_RNO[0] 1 15 3 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count_RNIKMD61[2] 5 14 5 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count_RNICK2L1[5] 5 14 3 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count[4] 5 15 4 #SB_DFFSR
+set_location uart_rx.r_Bit_Index_RNI5P4V[1] 2 16 3 #SB_LUT4
+set_location uart_rx.un1_r_Data_Clock_Count_cry_3_c 5 15 3 #SB_CARRY
+set_location seg2.r_Hex_Value[5] 2 16 5 #SB_DFF
+set_location uart_rx.r_State_RNO_0[1] 4 14 3 #SB_LUT4
+set_location uart_rx.r_State_RNI0LVB3[0] 4 14 5 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count_RNO[2] 5 15 2 #SB_LUT4
+set_location uart_rx.un1_r_Data_Clock_Count_cry_6_c 5 15 6 #SB_CARRY
+set_location uart_rx.r_State_RNIR59T[0] 4 14 2 #SB_LUT4
+set_location uart_rx.r_RX_Byte_RNO[5] 1 16 4 #SB_LUT4
+set_location uart_rx.r_Data_Clock_Count[1] 5 15 1 #SB_DFFSR
+set_location seg1.r_Hex_Value_2_6_0_.N_26_i 4 16 3 #SB_LUT4
+set_location uart_rx.r_State_RNO[0] 2 14 2 #SB_LUT4
+set_io o_Segment2_D 95
+set_io o_Segment1_F 1
+set_io o_Segment1_B 4
+set_io i_Clk 15
+set_io o_Segment2_G 96
+set_io o_Segment2_C 97
+set_io o_Segment1_G 2
+set_io o_Segment1_C 93
+set_io i_UART_RX 73
+set_io o_Segment2_F 8
+set_io o_Segment2_B 99
+set_io o_Segment1_D 91
+set_io o_Segment2_E 94
+set_io o_Segment2_A 100
+set_io o_Segment1_E 90
+set_io o_Segment1_A 3

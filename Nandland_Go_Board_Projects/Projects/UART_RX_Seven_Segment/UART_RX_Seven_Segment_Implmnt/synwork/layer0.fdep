@@ -1,0 +1,27 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Verilog\\Nandland_Go_Board_Projects\\Projects\\UART_RX_Seven_Segment\\UART_RX_Seven_Segment_Implmnt\\synwork\\UART_RX_Seven_Segment_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|D:\\Verilog\\Nandland_Go_Board_Projects\\Projects\\UART_RX_Seven_Segment\\|-I|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_ver.exe":1651489885
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v":1651489892
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\hypermods.v":1651489899
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\umr_capim.v":1651489899
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_objects.v":1651489899
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1651489899
+#CUR:"D:\\Verilog\\Nandland_Go_Board_Projects\\Sources\\Binary_to_7_Segment.v":1653153458
+#CUR:"D:\\Verilog\\Nandland_Go_Board_Projects\\Sources\\UART_RX.v":1662663276
+#CUR:"D:\\Verilog\\Nandland_Go_Board_Projects\\Sources\\UART_RX_Top.v":1662665043
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"D:\Verilog\Nandland_Go_Board_Projects\Sources\Binary_to_7_Segment.v" verilog
+1			"D:\Verilog\Nandland_Go_Board_Projects\Sources\UART_RX.v" verilog
+2			"D:\Verilog\Nandland_Go_Board_Projects\Sources\UART_RX_Top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1 0
+#Dependency Lists(Users Of)
+0 2
+1 2
+2 -1
+#Design Unit to File Association
+module work binary_to_7_segment 0
+module work UART_RX 1
+module work UART_RX_Top 2

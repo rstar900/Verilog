@@ -17,9 +17,9 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>D:/Verilog/Nandland_Go_Board_Projects/Projects/LED_Blink/LED_Blink_Implmnt/sbt/outputs/bitmap/led_blink_top_bitmap.bin</File>
-			<FileTime>07/24/22 20:50:13</FileTime>
-			<JedecChecksum>0xEF5B</JedecChecksum>
+			<File>D:/Verilog/Nandland_Go_Board_Projects/Projects/UART_RX_Seven_Segment/UART_RX_Seven_Segment_Implmnt/sbt/outputs/bitmap/UART_RX_Top_bitmap.bin</File>
+			<FileTime>09/09/22 00:56:26</FileTime>
+			<JedecChecksum>0xAA79</JedecChecksum>
 			<Operation>SPI Flash Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
@@ -61,11 +61,11 @@
 					<IDCode>0x10</IDCode>
 					<Package>8-pin SOIC</Package>
 					<Operation>SPI Flash Erase,Program,Verify</Operation>
-					<File>D:/Verilog/Nandland_Go_Board_Projects/Projects/LED_Blink/LED_Blink_Implmnt/sbt/outputs/bitmap/led_blink_top_bitmap.bin</File>
+					<File>D:/Verilog/Nandland_Go_Board_Projects/Projects/UART_RX_Seven_Segment/UART_RX_Seven_Segment_Implmnt/sbt/outputs/bitmap/UART_RX_Top_bitmap.bin</File>
 					<AddressBase>0x00000000</AddressBase>
 					<EndAddress>0x00008000</EndAddress>
 					<DeviceSize>1</DeviceSize>
-					<DataSize>32300</DataSize>
+					<DataSize>32299</DataSize>
 					<NumberOfDevices>1</NumberOfDevices>
 					<ReInitialize value="FALSE"/>
 				</Device>

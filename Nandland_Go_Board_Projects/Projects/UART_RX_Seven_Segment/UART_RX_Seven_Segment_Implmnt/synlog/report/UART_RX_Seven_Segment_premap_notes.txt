@@ -1,0 +1,4 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN362 :"d:\verilog\nandland_go_board_projects\sources\uart_rx.v":23:2:23:7|Removing sequential instance r_RX_DV (in view: work.UART_RX(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN225 |Writing default property annotation file D:\Verilog\Nandland_Go_Board_Projects\Projects\UART_RX_Seven_Segment\UART_RX_Seven_Segment_Implmnt\UART_RX_Seven_Segment.sap.

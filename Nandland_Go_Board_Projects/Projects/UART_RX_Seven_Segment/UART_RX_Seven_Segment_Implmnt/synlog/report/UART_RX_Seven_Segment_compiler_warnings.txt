@@ -1,0 +1,2 @@
+@W: CG679 :"D:\Verilog\Nandland_Go_Board_Projects\Sources\UART_RX.v":1:7:1:13|Previous module with same name UART_RX
+

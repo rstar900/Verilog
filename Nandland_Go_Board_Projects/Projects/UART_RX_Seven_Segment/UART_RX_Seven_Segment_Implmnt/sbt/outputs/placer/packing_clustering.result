@@ -1,0 +1,76 @@
+ble_pack uart_rx.r_Data_Clock_Count[0]_LC_29 {uart_rx.r_Data_Clock_Count[0], uart_rx.un1_r_Data_Clock_Count_cry_0_c, uart_rx.r_Data_Clock_Count_RNO[0]}
+ble_pack uart_rx.r_Data_Clock_Count[1]_LC_30 {uart_rx.r_Data_Clock_Count[1], uart_rx.un1_r_Data_Clock_Count_cry_1_c, uart_rx.r_Data_Clock_Count_RNO[1]}
+ble_pack uart_rx.r_Data_Clock_Count[2]_LC_31 {uart_rx.r_Data_Clock_Count[2], uart_rx.un1_r_Data_Clock_Count_cry_2_c, uart_rx.r_Data_Clock_Count_RNO[2]}
+ble_pack uart_rx.r_Data_Clock_Count[3]_LC_32 {uart_rx.r_Data_Clock_Count[3], uart_rx.un1_r_Data_Clock_Count_cry_3_c, uart_rx.r_Data_Clock_Count_RNO[3]}
+ble_pack uart_rx.r_Data_Clock_Count[4]_LC_33 {uart_rx.r_Data_Clock_Count[4], uart_rx.un1_r_Data_Clock_Count_cry_4_c, uart_rx.r_Data_Clock_Count_RNO[4]}
+ble_pack uart_rx.r_Data_Clock_Count[5]_LC_34 {uart_rx.r_Data_Clock_Count[5], uart_rx.un1_r_Data_Clock_Count_cry_5_c, uart_rx.r_Data_Clock_Count_RNO[5]}
+ble_pack uart_rx.r_Data_Clock_Count[6]_LC_35 {uart_rx.r_Data_Clock_Count[6], uart_rx.un1_r_Data_Clock_Count_cry_6_c, uart_rx.r_Data_Clock_Count_RNO[6]}
+ble_pack uart_rx.r_Data_Clock_Count[7]_LC_36 {uart_rx.r_Data_Clock_Count[7], uart_rx.r_Data_Clock_Count_RNO[7]}
+clb_pack PLB_0 {uart_rx.r_Data_Clock_Count[0]_LC_29, uart_rx.r_Data_Clock_Count[1]_LC_30, uart_rx.r_Data_Clock_Count[2]_LC_31, uart_rx.r_Data_Clock_Count[3]_LC_32, uart_rx.r_Data_Clock_Count[4]_LC_33, uart_rx.r_Data_Clock_Count[5]_LC_34, uart_rx.r_Data_Clock_Count[6]_LC_35, uart_rx.r_Data_Clock_Count[7]_LC_36}
+ble_pack seg1.r_Hex_Value[4]_LC_0 {seg1.r_Hex_Value[4], seg1.r_Hex_Value_2_6_0_.N_26_i}
+ble_pack uart_rx.r_RX_Byte[4]_LC_48 {uart_rx.r_RX_Byte[4], uart_rx.r_RX_Byte_RNO[4]}
+ble_pack uart_rx.r_State_RNI0LVB3_1[0]_LC_54 {uart_rx.r_State_RNI0LVB3_1[0]}
+ble_pack uart_rx.r_RX_Byte[5]_LC_49 {uart_rx.r_RX_Byte[5], uart_rx.r_RX_Byte_RNO[5]}
+ble_pack uart_rx.r_RX_Byte[6]_LC_50 {uart_rx.r_RX_Byte[6], uart_rx.r_RX_Byte_RNO[6]}
+ble_pack uart_rx.r_RX_Byte[7]_LC_51 {uart_rx.r_RX_Byte[7], uart_rx.r_RX_Byte_RNO[7]}
+ble_pack uart_rx.r_RX_Byte[0]_LC_37 {uart_rx.r_RX_Byte[0], uart_rx.r_RX_Byte_RNO[0]}
+ble_pack uart_rx.r_RX_Byte[1]_LC_45 {uart_rx.r_RX_Byte[1], uart_rx.r_RX_Byte_RNO[1]}
+clb_pack PLB_1 {seg1.r_Hex_Value[4]_LC_0, uart_rx.r_RX_Byte[4]_LC_48, uart_rx.r_State_RNI0LVB3_1[0]_LC_54, uart_rx.r_RX_Byte[5]_LC_49, uart_rx.r_RX_Byte[6]_LC_50, uart_rx.r_RX_Byte[7]_LC_51, uart_rx.r_RX_Byte[0]_LC_37, uart_rx.r_RX_Byte[1]_LC_45}
+ble_pack seg1.r_Hex_Value[6]_LC_1 {seg1.r_Hex_Value[6], seg1.r_Hex_Value_2_6_0_.N_27_i}
+ble_pack seg1.r_Hex_Value[5]_LC_2 {seg1.r_Hex_Value[5], seg1.r_Hex_Value_2_6_0_.N_28_i}
+ble_pack seg1.r_Hex_Value[3]_LC_3 {seg1.r_Hex_Value[3], seg1.r_Hex_Value_2_6_0_.N_31_i}
+ble_pack seg1.r_Hex_Value[0]_LC_4 {seg1.r_Hex_Value[0], seg1.r_Hex_Value_2_6_0_.N_6_i}
+ble_pack seg1.r_Hex_Value[1]_LC_5 {seg1.r_Hex_Value[1], seg1.r_Hex_Value_2_6_0_.m10_i}
+ble_pack seg1.r_Hex_Value[2]_LC_6 {seg1.r_Hex_Value[2], seg1.r_Hex_Value_2_6_0_.m14_i}
+ble_pack seg2.r_Hex_Value[6]_LC_7 {seg2.r_Hex_Value[6], seg2.r_Hex_Value_2_6_0_.N_27_i}
+ble_pack uart_rx.r_RX_Byte[2]_LC_46 {uart_rx.r_RX_Byte[2], uart_rx.r_RX_Byte_RNO[2]}
+clb_pack PLB_2 {seg1.r_Hex_Value[6]_LC_1, seg1.r_Hex_Value[5]_LC_2, seg1.r_Hex_Value[3]_LC_3, seg1.r_Hex_Value[0]_LC_4, seg1.r_Hex_Value[1]_LC_5, seg1.r_Hex_Value[2]_LC_6, seg2.r_Hex_Value[6]_LC_7, uart_rx.r_RX_Byte[2]_LC_46}
+ble_pack seg2.r_Hex_Value[4]_LC_8 {seg2.r_Hex_Value[4], seg2.r_Hex_Value_2_6_0_.N_52_i}
+ble_pack uart_rx.r_RX_Byte[3]_LC_47 {uart_rx.r_RX_Byte[3], uart_rx.r_RX_Byte_RNO[3]}
+ble_pack uart_rx.r_RX_Byte_RNO_0[3]_LC_41 {uart_rx.r_RX_Byte_RNO_0[3]}
+ble_pack uart_rx.r_Bit_Index_RNI5P4V_2[1]_LC_17 {uart_rx.r_Bit_Index_RNI5P4V_2[1]}
+ble_pack uart_rx.r_Bit_Index[1]_LC_20 {uart_rx.r_Bit_Index[1], uart_rx.r_Bit_Index_RNO[1]}
+ble_pack uart_rx.r_State_RNI0LVB3_0[0]_LC_53 {uart_rx.r_State_RNI0LVB3_0[0]}
+ble_pack uart_rx.r_Bit_Index[2]_LC_21 {uart_rx.r_Bit_Index[2], uart_rx.r_Bit_Index_RNO[2]}
+ble_pack uart_rx.r_Bit_Index[0]_LC_19 {uart_rx.r_Bit_Index[0], uart_rx.r_Bit_Index_RNO[0]}
+clb_pack PLB_3 {seg2.r_Hex_Value[4]_LC_8, uart_rx.r_RX_Byte[3]_LC_47, uart_rx.r_RX_Byte_RNO_0[3]_LC_41, uart_rx.r_Bit_Index_RNI5P4V_2[1]_LC_17, uart_rx.r_Bit_Index[1]_LC_20, uart_rx.r_State_RNI0LVB3_0[0]_LC_53, uart_rx.r_Bit_Index[2]_LC_21, uart_rx.r_Bit_Index[0]_LC_19}
+ble_pack seg2.r_Hex_Value[5]_LC_9 {seg2.r_Hex_Value[5], seg2.r_Hex_Value_2_6_0_.N_54_i}
+ble_pack seg2.r_Hex_Value[3]_LC_10 {seg2.r_Hex_Value[3], seg2.r_Hex_Value_2_6_0_.N_57_i}
+ble_pack seg2.r_Hex_Value[0]_LC_11 {seg2.r_Hex_Value[0], seg2.r_Hex_Value_2_6_0_.N_6_i}
+ble_pack seg2.r_Hex_Value[1]_LC_12 {seg2.r_Hex_Value[1], seg2.r_Hex_Value_2_6_0_.m10_i}
+ble_pack seg2.r_Hex_Value[2]_LC_13 {seg2.r_Hex_Value[2], seg2.r_Hex_Value_2_6_0_.m14_i}
+ble_pack uart_rx.r_RX_Byte_RNO_0[0]_LC_38 {uart_rx.r_RX_Byte_RNO_0[0]}
+ble_pack uart_rx.r_Bit_Index_RNI5P4V[1]_LC_15 {uart_rx.r_Bit_Index_RNI5P4V[1]}
+ble_pack uart_rx.r_RX_Byte_RNO_0[4]_LC_42 {uart_rx.r_RX_Byte_RNO_0[4]}
+clb_pack PLB_4 {seg2.r_Hex_Value[5]_LC_9, seg2.r_Hex_Value[3]_LC_10, seg2.r_Hex_Value[0]_LC_11, seg2.r_Hex_Value[1]_LC_12, seg2.r_Hex_Value[2]_LC_13, uart_rx.r_RX_Byte_RNO_0[0]_LC_38, uart_rx.r_Bit_Index_RNI5P4V[1]_LC_15, uart_rx.r_RX_Byte_RNO_0[4]_LC_42}
+ble_pack uart_rx.r_Data_Clock_Count_RNICK2L1[5]_LC_22 {uart_rx.r_Data_Clock_Count_RNICK2L1[5]}
+ble_pack uart_rx.r_Data_Clock_Count_RNID8DQ4[5]_LC_23 {uart_rx.r_Data_Clock_Count_RNID8DQ4[5]}
+ble_pack uart_rx.r_Data_Clock_Count_RNIKSU42[7]_LC_26 {uart_rx.r_Data_Clock_Count_RNIKSU42[7]}
+ble_pack uart_rx.r_State_RNIRG1L8[1]_LC_58 {uart_rx.r_State_RNIRG1L8[1]}
+ble_pack uart_rx.r_Data_Clock_Count_RNIKMD61[2]_LC_25 {uart_rx.r_Data_Clock_Count_RNIKMD61[2]}
+ble_pack uart_rx.r_Data_Clock_Count_RNIHMRC2[5]_LC_24 {uart_rx.r_Data_Clock_Count_RNIHMRC2[5]}
+ble_pack uart_rx.r_State_RNI4P6A5[2]_LC_55 {uart_rx.r_State_RNI4P6A5[2]}
+ble_pack uart_rx.r_State_RNO_2[0]_LC_66 {uart_rx.r_State_RNO_2[0]}
+clb_pack PLB_5 {uart_rx.r_Data_Clock_Count_RNICK2L1[5]_LC_22, uart_rx.r_Data_Clock_Count_RNID8DQ4[5]_LC_23, uart_rx.r_Data_Clock_Count_RNIKSU42[7]_LC_26, uart_rx.r_State_RNIRG1L8[1]_LC_58, uart_rx.r_Data_Clock_Count_RNIKMD61[2]_LC_25, uart_rx.r_Data_Clock_Count_RNIHMRC2[5]_LC_24, uart_rx.r_State_RNI4P6A5[2]_LC_55, uart_rx.r_State_RNO_2[0]_LC_66}
+ble_pack uart_rx.r_Data_Clock_Count_RNIMQ102[3]_LC_27 {uart_rx.r_Data_Clock_Count_RNIMQ102[3]}
+ble_pack uart_rx.r_Data_Clock_Count_RNIV0KP[6]_LC_28 {uart_rx.r_Data_Clock_Count_RNIV0KP[6]}
+ble_pack uart_rx.r_State_RNO_0[1]_LC_62 {uart_rx.r_State_RNO_0[1]}
+ble_pack uart_rx.r_State[1]_LC_63 {uart_rx.r_State[1], uart_rx.r_State_RNO[1]}
+ble_pack uart_rx.r_State_RNI0LVB3[0]_LC_52 {uart_rx.r_State_RNI0LVB3[0]}
+ble_pack uart_rx.r_State[0]_LC_60 {uart_rx.r_State[0], uart_rx.r_State_RNO[0]}
+ble_pack uart_rx.r_State_RNO_0[0]_LC_61 {uart_rx.r_State_RNO_0[0]}
+ble_pack uart_rx.r_State_RNO_1[0]_LC_64 {uart_rx.r_State_RNO_1[0]}
+clb_pack PLB_6 {uart_rx.r_Data_Clock_Count_RNIMQ102[3]_LC_27, uart_rx.r_Data_Clock_Count_RNIV0KP[6]_LC_28, uart_rx.r_State_RNO_0[1]_LC_62, uart_rx.r_State[1]_LC_63, uart_rx.r_State_RNI0LVB3[0]_LC_52, uart_rx.r_State[0]_LC_60, uart_rx.r_State_RNO_0[0]_LC_61, uart_rx.r_State_RNO_1[0]_LC_64}
+ble_pack uart_rx.r_RX_Byte_RNO_0[1]_LC_39 {uart_rx.r_RX_Byte_RNO_0[1]}
+ble_pack uart_rx.r_Bit_Index_RNI5P4V_0[1]_LC_14 {uart_rx.r_Bit_Index_RNI5P4V_0[1]}
+ble_pack uart_rx.r_RX_Byte_RNO_0[5]_LC_43 {uart_rx.r_RX_Byte_RNO_0[5]}
+ble_pack uart_rx.r_Bit_Index_RNI97NE1[1]_LC_18 {uart_rx.r_Bit_Index_RNI97NE1[1]}
+ble_pack uart_rx.r_Bit_Index_RNI5P4V_1[1]_LC_16 {uart_rx.r_Bit_Index_RNI5P4V_1[1]}
+ble_pack uart_rx.r_RX_Byte_RNO_0[2]_LC_40 {uart_rx.r_RX_Byte_RNO_0[2]}
+ble_pack uart_rx.r_RX_Byte_RNO_0[6]_LC_44 {uart_rx.r_RX_Byte_RNO_0[6]}
+ble_pack uart_rx.r_State[2]_LC_65 {uart_rx.r_State[2], uart_rx.r_State_RNO[2]}
+clb_pack PLB_7 {uart_rx.r_RX_Byte_RNO_0[1]_LC_39, uart_rx.r_Bit_Index_RNI5P4V_0[1]_LC_14, uart_rx.r_RX_Byte_RNO_0[5]_LC_43, uart_rx.r_Bit_Index_RNI97NE1[1]_LC_18, uart_rx.r_Bit_Index_RNI5P4V_1[1]_LC_16, uart_rx.r_RX_Byte_RNO_0[2]_LC_40, uart_rx.r_RX_Byte_RNO_0[6]_LC_44, uart_rx.r_State[2]_LC_65}
+ble_pack uart_rx.r_State_RNIAQTB1[0]_LC_56 {uart_rx.r_State_RNIAQTB1[0]}
+ble_pack uart_rx.r_State_RNIR59T[0]_LC_57 {uart_rx.r_State_RNIR59T[0]}
+ble_pack uart_rx.r_State_RNIT79T[2]_LC_59 {uart_rx.r_State_RNIT79T[2]}
+clb_pack PLB_8 {uart_rx.r_State_RNIAQTB1[0]_LC_56, uart_rx.r_State_RNIR59T[0]_LC_57, uart_rx.r_State_RNIT79T[2]_LC_59}
